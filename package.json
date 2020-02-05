@@ -1,0 +1,31 @@
+{
+  "name": "personal-site-v2",
+  "version": "1.0.0",
+  "description": "My personal site",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evan-Nishi/personal-site-v2.git"
+  },
+  "author": "Evan-Nishi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evan-Nishi/personal-site-v2/issues"
+  },
+  "homepage": "https://github.com/Evan-Nishi/personal-site-v2#readme",
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "@types/react": "^16.9.19",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
