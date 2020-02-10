@@ -123,6 +123,11 @@ img{
     padding-left: 40px;
 }
 
+.errormessage{
+    color: black;
+    text-align: center;
+}
+
 #python{
     width: 92%;
     height: 50px;

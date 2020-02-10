@@ -46,7 +46,6 @@ export default class Index extends React.Component {
                                 <li>Launch Hacks, attendee</li>
                             </ul>
                         </div>
-                        <br className="spacer"/>
                         <h2>Events I've organized/mentored:</h2>
                         <div className="indented">
                             <ul>
