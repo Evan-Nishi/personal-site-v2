@@ -7,13 +7,14 @@ export default class Index extends React.Component {
         return(
             <body>    
                 <Layout>
-                    <img src="/barseg1.png" id="TopBar" className="animated slideInRight"/> 
-                    <img src="/barseg2.png" id="SmolBar" className="animated slideInRight"/> 
+                    <div>
+                        <img src="/barseg1.png" id="TopBar" className="animated slideInRight"/> 
+                        <img src="/barseg2.png" id="SmolBar" className="animated slideInRight"/> 
+                    </div>
                     <Header/>
                     <h1 id="title">Evan Nishi</h1>
-                    <br className="blank"/>
                     <img src="/pfp3.png" id="pfp" className="animated fadeInDown delay-1s"/>
-                    <br className="spacer"/>
+                    <br/>
                     <div className="container">
                         <h3>About me:</h3>
                         <p>Hi, my name is Evan and I am a student at Las Lomas in Walnut Creek California and DVC
@@ -26,8 +27,8 @@ export default class Index extends React.Component {
                                afraid to fail or ask for help sometimes.  I have a solid work ethic, and 
                                adapt to new environments and technologies quickly.</p>
                     </div>
-                    <br className="spacer"/>
-                    <br className="spacer"/>
+                    <br/>
+                    <br/>
                     <div className="container">
                         <h3>Events</h3>
                         <p>In the past few months, hackathons and the hacker community as a whole
@@ -59,12 +60,12 @@ export default class Index extends React.Component {
                         </div>
                         </div>
                     </div>
-                    <br className="spacer"/>
-                    <br className="spacer"/>
+                    <br/>
+                    <br/>
                     <div className="container" id="skills">
                         <h3>Tools/Technologies:</h3>
                         <p>I love learning new technologies, along with the following tools
-                            I know Git, scrum, and have good understanding and experience with linux.
+                            I am also experienced with linux, scrum, git, and bash scripting.
                         </p>
                         <div className="indented">
                             <h2>Python</h2>
@@ -123,8 +124,8 @@ export default class Index extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <br className="spacer"/>
-                    <br className="spacer"/>
+                    <br/>
+                    <br/>
                     <div className="container">
                         <h3>Work/Education/Volunteer</h3>
                         <div className="indented">
@@ -147,8 +148,8 @@ export default class Index extends React.Component {
                             </ul>
                         </div>
                     </div>
-                    <br className="spacer"/>
-                    <br className="spacer"/>
+                    <br/>
+                    <br/>
                     <div className="container">
                         <h3>Hobbies:</h3>
                         <div className="indented">
@@ -172,7 +173,7 @@ export default class Index extends React.Component {
                             </ul>
                         </div>
                     </div>
-                    <br className="blank"/>
+                    <div className="blank"/>
                 </Layout>
             </body>
 

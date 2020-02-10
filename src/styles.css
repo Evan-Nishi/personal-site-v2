@@ -44,10 +44,6 @@ body{
     margin: 0;
 }
 
-br{
-    line-height: 5px;
-}
-
 footer {
     height:100px;
     display: flex;
@@ -57,8 +53,7 @@ footer {
 
 img{
     user-select: none;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
     display: block;
 }
 
@@ -100,14 +95,6 @@ img{
     margin: auto;
 }
 
-.spacer{
-    line-height: 50px;
-}
-
-.blank{
-    line-height: 280px;
-}
-
 .inlinelink{
     color: #A1EC66;
 }
@@ -126,6 +113,10 @@ img{
 .errormessage{
     color: black;
     text-align: center;
+}
+
+.blank{
+    height: 50%;
 }
 
 #python{
@@ -186,9 +177,12 @@ img{
 }
 
 #pfp{
+    padding-top: 20%;
+    position: relative;
     width: 30%;
     height: auto;
 }
+
 
 @media screen and (max-width:740px) {
 
