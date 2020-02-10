@@ -187,7 +187,7 @@ img{
 @media screen and (max-width:740px) {
 
     body {
-        width:200vw;
+        width:100vw;
     }
     .container {
         width:93vw;
