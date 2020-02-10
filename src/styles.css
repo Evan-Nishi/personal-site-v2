@@ -189,3 +189,21 @@ img{
     width: 500px;
     height: auto;
 }
+
+@media screen and (max-width:740px) {
+
+    body {
+        width:100vw;
+    }
+    .cont {
+        width:93vw;
+        margin-left:4vw;
+        margin-right:3vw;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    #TopBar {display: none;}
+    #SmolBar {display: none;}
+    #Title {display: none;}
+}
