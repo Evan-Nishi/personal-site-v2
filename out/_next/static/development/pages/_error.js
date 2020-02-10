@@ -11892,6 +11892,7 @@ function (_React$Component) {
         },
         __self: this
       }, "404"), __jsx("h2", {
+        className: "errormessage",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 9
@@ -11905,6 +11906,7 @@ function (_React$Component) {
         },
         __self: this
       }), __jsx("h3", {
+        className: "errormessage",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 11
