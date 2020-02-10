@@ -186,14 +186,14 @@ img{
 }
 
 #pfp{
-    width: 500px;
+    width: 30%;
     height: auto;
 }
 
 @media screen and (max-width:740px) {
 
-    html {
-        width:100vw;
+    body {
+        width:200vw;
     }
     .container {
         width:93vw;
