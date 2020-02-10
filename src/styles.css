@@ -192,10 +192,10 @@ img{
 
 @media screen and (max-width:740px) {
 
-    body {
+    html {
         width:100vw;
     }
-    .cont {
+    .container {
         width:93vw;
         margin-left:4vw;
         margin-right:3vw;
@@ -206,4 +206,5 @@ img{
     #TopBar {display: none;}
     #SmolBar {display: none;}
     #Title {display: none;}
+    #header{display: none;}
 }
