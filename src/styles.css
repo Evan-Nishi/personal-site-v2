@@ -7,16 +7,38 @@ html{
     text-align: center;
 }
 
-a{
-    color: #62943C;
+h2{
+    padding-left: 40px;;
+    text-align: left;
+    color: #4D4D4D;
+    font-size: 40px;
 }
 
-body{
-    margin: 0;
+h3{
+    color: #A8D386;
+    font-size: 50px;
+    text-align: left;
+}
+
+li{
+    color: #888888;
+}
+
+a{
+    color: #4D4D4D;
+}
+
+p{
+    padding-left: 70px;
+    max-width: 70%;
+    text-align: left;
+    font-size: 30px;
+    color: #888888;
 }
 
 body{
     background-color: white;
+    margin: 0;
 }
 
 br{
@@ -31,13 +53,43 @@ footer {
 }
 
 img{
+    user-select: none;
     margin-right: auto;
     margin-left: auto;
     display: block;
 }
 
+.icon{
+    transition: all 0.5s ease-in-out;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+.icon:hover{
+    color: #A8D386;
+}
+
+
+.navcont{
+    font-size: 50px;
+    color: #A8D386;
+    background: white;
+    text-decoration: none;
+    width: 200px;
+    height: 70px;
+    background-color: white;
+    flex-direction: row;
+}
+
+.navcont:hover{
+    background-color:#cfcfcf;
+}
+
 .container{
-    width: 80%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 90%;
     height: 100%;
 }
 
@@ -46,10 +98,47 @@ img{
 }
 
 .spacer{
-    line-height: 250px;
+    line-height: 50px;
+}
+
+.blank{
+    line-height: 280px;
+}
+
+.inlinelink{
+    color: #A1EC66;
+}
+
+.skillbar{
+    width: 80%; 
+    height: 50px;
+    background-color: #E9E9E9;
+    user-select: none;
+}
+
+#python{
+    width: 92%;
+    height: 50px;
+    background-color: #8697D3;
+}
+
+#header{
+    flex-direction: row;
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 15%;
+}
+
+#title{
+    color: white;
+    position: absolute;
+    font-size: 85px;
+    margin-top: 1.5%;
+    margin-left: 50%;
 }
 
 #SmolBar{
+    z-index: -1;
     margin-top: 20px;
     margin-left: 30%;
     width: 65%;
@@ -58,15 +147,15 @@ img{
 }
 
 #TopBar{
+    z-index: -2;
     margin-top: 50px;
-    margin-left: 8%;
+    margin-left: 5%;
     width: 95%;
     height: auto;
     position: absolute;
 }
 
 #pfp{
-    width: 250px;
+    width: 500px;
     height: auto;
-    border: 10px solid #A8D386;
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
-import Header from './Header'
+import Link from 'next/link'
+import Footer from './Footer'
 export default class Layout extends React.Component {
     render(){
         return(
@@ -17,10 +18,7 @@ export default class Layout extends React.Component {
                     <div id='content'>
                         {this.props.children}
                     </div>
-                    <footer>
-                        <div id="Footer">
-                        </div>
-                    </footer>
+                    <Footer/>
                 </div>
             </div>
         )
