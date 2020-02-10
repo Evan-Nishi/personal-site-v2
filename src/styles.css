@@ -8,19 +8,22 @@ html{
 }
 
 h2{
-    padding-left: 40px;;
+    padding-left: 0;
     text-align: left;
     color: #4D4D4D;
     font-size: 40px;
 }
 
 h3{
+    padding-left: 0;
     color: #A8D386;
-    font-size: 50px;
+    font-size: 55px;
     text-align: left;
 }
 
 li{
+    text-align: left;
+    font-size: 40px;
     color: #888888;
 }
 
@@ -32,7 +35,7 @@ p{
     padding-left: 70px;
     max-width: 70%;
     text-align: left;
-    font-size: 30px;
+    font-size: 40px;
     color: #888888;
 }
 
@@ -116,10 +119,32 @@ img{
     user-select: none;
 }
 
+.indented{
+    padding-left: 40px;
+}
+
 #python{
     width: 92%;
     height: 50px;
     background-color: #8697D3;
+}
+
+#jsts{
+    width: 85%;
+    height: 50px;
+    background-color: #95D386;
+}
+
+#java{
+    width: 80%;
+    height: 50px;
+    background-color: #FFA858;
+}
+
+#cpp{
+    width: 73%;
+    height: 50px;
+    background-color: #f655fc;
 }
 
 #header{
