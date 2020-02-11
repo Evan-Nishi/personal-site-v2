@@ -9,10 +9,9 @@ export default class Index extends React.Component {
                 <Layout>
                     <div>
                         <img src="/barseg1.png" id="TopBar" className="animated slideInRight"/> 
-                        <img src="/barseg2.png" id="SmolBar" className="animated slideInRight"/> 
+                        <img src="/topbar2.png" id="SmolBar" className="animated slideInRight"/> 
                     </div>
                     <Header/>
-                    <h1 id="title">Evan Nishi</h1>
                     <img src="/pfp3.png" id="pfp" className="animated fadeInDown delay-1s"/>
                     <br/>
                     <div className="container">
@@ -132,6 +131,7 @@ export default class Index extends React.Component {
                             <ul>
                                 <li>Student, Las Lomas High School, 2018-2020</li>
                                 <p>Currently a student at Las Lomas High School, Current GPA:4.0, WGPA: 4.13</p>
+                                <h5></h5>
                                 <li>Student, Diablo Valley College, 2018-2020</li>
                                 <p>Currently enrolled in Diablo Valley College and working towards my AA degree
                                      in computer science.  Current GPA: 4.0</p>
