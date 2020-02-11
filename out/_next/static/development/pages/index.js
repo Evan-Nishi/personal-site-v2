@@ -12558,7 +12558,7 @@ function (_React$Component) {
           lineNumber: 144
         },
         __self: this
-      }, "Was a math and english tutor who helped underprivelaged kids study and do homework.")))), __jsx("br", {
+      }, "Was a math and english tutor who helped underprivileged kids study and do homework.")))), __jsx("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 150

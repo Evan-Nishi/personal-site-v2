@@ -141,7 +141,7 @@ export default class Index extends React.Component {
                                 and express.
                             </p>
                             <li>Math tutor, Monument Crisis, 09/2018-01/2020</li>
-                            <p>Was a math and english tutor who helped underprivelaged kids study
+                            <p>Was a math and english tutor who helped underprivileged kids study
                                 and do homework.
                             </p>
                         </ul>
