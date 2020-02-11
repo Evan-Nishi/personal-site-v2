@@ -185,7 +185,9 @@ img{
 
 
 @media screen and (max-width:740px) {
-
+    #pfp{
+        width: 30vw;
+    }
     body {
         width:100vw;
     }
@@ -205,4 +207,5 @@ img{
     #SmolBar {display: none;}
     #Title {display: none;}
     #header{display: none;}
+    #jsts, #python, #cpp, #java, .skillbar{height: 10px;}
 }
