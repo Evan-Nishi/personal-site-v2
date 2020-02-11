@@ -7,6 +7,10 @@ html{
     text-align: center;
 }
 
+Footer{
+    width: 100vw;
+}
+
 h2{
     padding-left: 0;
     text-align: left;
@@ -42,13 +46,6 @@ p{
 body{
     background-color: white;
     margin: 0;
-}
-
-footer {
-    height:100px;
-    display: flex;
-    flex-direction:column;
-    width: 100%;
 }
 
 img{
@@ -89,10 +86,6 @@ img{
     margin-right: 15%;
     width: 90%;
     height: 100%;
-}
-
-.footer{
-    margin: auto;
 }
 
 .inlinelink{
@@ -179,16 +172,15 @@ img{
 #pfp{
     padding-top: 20%;
     position: relative;
-    width: 30%;
+    width: 30vw;
     height: auto;
 }
 
-
-@media screen and (max-width:740px) {
+@media screen and (max-width: 740px){
     #pfp{
         width: 30vw;
     }
-    body {
+    html {
         width:100vw;
     }
     .container {
@@ -196,9 +188,6 @@ img{
         margin-left:4vw;
         margin-right:3vw;
     }
-}
-
-@media screen and (max-width: 1000px){
     p{padding-left: 5%; font-size: 10px;}
     h3{font-size: 15px;}
     h2{font-size: 10px;}
