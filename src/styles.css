@@ -219,6 +219,10 @@ a{
     height: auto;
 }
 
+#sc{
+    font-size: 90%;
+}
+
 @media screen and (max-width: 740px){
     .inlinelink{
         font-size: 15px;
@@ -229,7 +233,7 @@ a{
     }
     html {
         max-width: 100vw;
-        overflow: hidden;
+        overflow-x: hidden;
         width:100vw;
     }
     .container {
