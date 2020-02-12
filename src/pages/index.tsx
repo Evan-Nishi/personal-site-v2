@@ -16,14 +16,15 @@ export default class Index extends React.Component {
                 <div className="container">
                     <h3>About me:</h3>
                     <p>Hi, my name is Evan and I am a student at Las Lomas in Walnut Creek California and DVC
-                            in Pleasant Hill. I started self teaching programming in early 2019, and was fascinated
-                            with the idea of being able to create whatever I wanted, and learn how to do so
-                            off of the internet. I started off with python, and basic web development, but
-                            things really changed when I attended Hack Merced.  After I saw the amazing 
-                            hacker community, I devoted more and more of my time to coding.  I am always curious,
-                            constantly self improving, and am not
-                            afraid to fail or ask for help sometimes.  I have a solid work ethic, and 
-                            adapt to new environments and technologies quickly.</p>
+                        in Pleasant Hill. I started self teaching programming in early 2019, and was fascinated
+                        with the idea of being able to create whatever I wanted, and learn how to do so
+                        off of the internet. I started off with python, and basic web development, but
+                        things really changed when I attended Hack Merced.  After I saw the amazing 
+                        hacker community, I devoted more and more of my time to coding.  I am always curious,
+                        constantly self improving, and am not
+                        afraid to fail or ask for help sometimes.  I have a solid work ethic, and 
+                        adapt to new environments and technologies quickly.
+                    </p>
                 </div>
                 <br/>
                 <br/>
@@ -125,12 +126,12 @@ export default class Index extends React.Component {
                 <br/>
                 <br/>
                 <div className="container">
-                    <h3>Work/Education/Volunteer</h3>
+                    <h3>Work/Education</h3>
                     <div className="indented">
                         <ul>
-                            <li>Student, Las Lomas High School, 2018-2020</li>
+                            <li>Las Lomas High School</li>
+                            <h5>Student, 2018-2020</h5>
                             <p>Currently a student at Las Lomas High School, Current GPA:4.0, WGPA: 4.13</p>
-                            <h5></h5>
                             <li>Student, Diablo Valley College, 2018-2020</li>
                             <p>Currently enrolled in Diablo Valley College and working towards my AA degree
                                     in computer science.  Current GPA: 4.0</p>
@@ -158,7 +159,7 @@ export default class Index extends React.Component {
                             <li>Digital Design</li>
                             <p>I've recently gotten into  digitial design as a hobby.
                                 You can see some of my work is you look at my
-                                <a href="/Resume.png" className="inlinelink"> Resume</a>,
+                                <a href="/Resume.png" className="inlinelink">Resume</a>,
                                 or if you get a 404 error.
                             </p>
                             <li>Rocketry</li>
