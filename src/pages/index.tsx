@@ -131,19 +131,19 @@ export default class Index extends React.Component {
                     <div className="indented">
                         <ul>
                             <li>Las Lomas High School</li>
-                            <h5>Student, 2018-2020</h5>
-                            <p>Currently a student at Las Lomas High School, Current GPA:4.0, WGPA: 4.13</p>
-                            <li>Student, Diablo Valley College, 2018-2020</li>
-                            <p>Currently enrolled in Diablo Valley College and working towards my AA degree
+                            
+                            <p><h5>Student, 2018-2020</h5>Currently a student at Las Lomas High School, Current GPA:4.0, WGPA: 4.13</p>
+                            <li>Diablo Valley College</li>
+                            <p><h5>Student, 2018-2020</h5>Currently enrolled in Diablo Valley College and working towards my AA degree
                                     in computer science.  Current GPA: 4.0</p>
-                            <li>Founder and President, Las Lomas Hack Club,03/2019-present</li>
-                            <p>Organize, and founded a small Hack Club at my high school with ~5-10 regular members.</p>
-                            <li>Contract backend web developer, TrantonLLC, 01/2020-02/2020 </li>
-                            <p>Was a paid contract developer for TrantonLLC.  Worked mainly with discord.js
+                            <li>Las Lomas Hack Club</li>
+                            <p><h5>Founder and President, 03/2019-present </h5>Organize, and founded a small Hack Club at my high school with ~5-10 regular members.</p>
+                            <li>TrantonLLC </li>
+                            <p><h5>Contract backend web developer, 01/2020-02/2020</h5>Was a paid contract developer for TrantonLLC.  Worked mainly with discord.js
                                 and express.
                             </p>
-                            <li>Math tutor, Monument Crisis, 09/2018-01/2020</li>
-                            <p>Was a math and english tutor who helped underprivileged kids study
+                            <li>Monument Crisis</li>
+                            <p><h5>Math tutor, 09/2018-01/2020</h5>Was a math and english tutor who helped underprivileged kids study
                                 and do homework.
                             </p>
                         </ul>
