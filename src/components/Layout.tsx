@@ -1,13 +1,17 @@
 import React from 'react'
 import Head from 'next/head'
-import Link from 'next/link'
 import Footer from './Footer'
-export default class Layout extends React.Component {
+
+interface Props{
+    Title: string
+}
+
+export default class Layout extends React.Component<Props>{
     render(){
         return(
             <div id='page'>
                 <Head>
-                    <title>Evan Nishi</title>
+                    <title>{this.props.Title}</title>
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
                     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                     <meta name="og:title" content="Evan Nishi"/>

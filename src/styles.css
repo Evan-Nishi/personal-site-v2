@@ -70,7 +70,7 @@ img{
 }
 
 a{
-    margin-left: 4%;
+    margin-left: 5%;
     color: #4D4D4D;
     font-size: 45px;
     width: 5%;
@@ -91,7 +91,7 @@ a{
     background: white;
     text-decoration: none;
     width: 100%;
-    padding: 5px;
+    padding: 1%;
     background-color: white;
     flex-direction: row;
 }
@@ -124,6 +124,7 @@ a{
 }
 
 .errormessage{
+    text-decoration: none;
     color: black;
     text-align: center;
 }

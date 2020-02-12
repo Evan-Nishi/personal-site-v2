@@ -11747,21 +11747,23 @@ function (_React$Component) {
           lineNumber: 7
         },
         __self: this
-      }, __jsx("div", {
-        className: "navcont",
+      }, __jsx("a", {
+        className: "button",
+        href: "/Resume.png",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 8
         },
         __self: this
-      }, __jsx("a", {
-        href: "/Resume.png",
+      }, "Resume"), __jsx("a", {
+        className: "button",
+        href: "/coming-soon",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 9
         },
         __self: this
-      }, "Resume")));
+      }, "Contact"));
     }
   }]);
 
@@ -11821,27 +11823,27 @@ function (_React$Component) {
         id: "page",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 8
+          lineNumber: 12
         },
         __self: this
       }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9
+          lineNumber: 13
         },
         __self: this
       }, __jsx("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 14
         },
         __self: this
-      }, "Evan Nishi"), __jsx("link", {
+      }, this.props.Title), __jsx("link", {
         rel: "stylesheet",
         href: "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 15
         },
         __self: this
       }), __jsx("meta", {
@@ -11849,7 +11851,7 @@ function (_React$Component) {
         content: "width=device-width, initial-scale=1.0",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 16
         },
         __self: this
       }), __jsx("meta", {
@@ -11857,7 +11859,7 @@ function (_React$Component) {
         content: "Evan Nishi",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 17
         },
         __self: this
       }), __jsx("meta", {
@@ -11865,7 +11867,7 @@ function (_React$Component) {
         content: "Evan Nishi",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 18
         },
         __self: this
       })), __jsx("div", {
@@ -11877,26 +11879,26 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 20
         },
         __self: this
       }, __jsx("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 21
         },
         __self: this
       }), __jsx("div", {
         id: "content",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 22
         },
         __self: this
       }, this.props.children), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 25
         },
         __self: this
       })));
@@ -11955,15 +11957,16 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], {
+        Title: "Evan Nishi",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 8
+          lineNumber: 9
         },
         __self: this
       }, __jsx("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9
+          lineNumber: 10
         },
         __self: this
       }, __jsx("img", {
@@ -11972,7 +11975,7 @@ function (_React$Component) {
         className: "animated slideInRight",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 11
         },
         __self: this
       }), __jsx("img", {
@@ -11981,13 +11984,13 @@ function (_React$Component) {
         className: "animated slideInRight",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 12
         },
         __self: this
       })), __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_6__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 14
         },
         __self: this
       }), __jsx("img", {
@@ -11996,180 +11999,180 @@ function (_React$Component) {
         className: "animated fadeInDown delay-1s",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
-        },
-        __self: this
-      }), __jsx("br", {
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 15
         },
         __self: this
-      }), __jsx("div", {
-        className: "container",
+      }), __jsx("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
         },
         __self: this
-      }, __jsx("h3", {
+      }), __jsx("div", {
+        className: "container",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
         },
         __self: this
-      }, "About me:"), __jsx("p", {
+      }, __jsx("h3", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 18
         },
         __self: this
+      }, "About me:"), __jsx("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
       }, "Hi, my name is Evan and I am a student at Las Lomas in Walnut Creek California and DVC in Pleasant Hill. I started self teaching programming in early 2019, and was fascinated with the idea of being able to create whatever I wanted, and learn how to do so off of the internet. I started off with python, and basic web development, but things really changed when I attended Hack Merced.  After I saw the amazing hacker community, I devoted more and more of my time to coding.  I am always curious, constantly self improving, and am not afraid to fail or ask for help sometimes.  I have a solid work ethic, and adapt to new environments and technologies quickly.")), __jsx("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 30
         },
         __self: this
       }), __jsx("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 31
         },
         __self: this
       }), __jsx("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 32
         },
         __self: this
       }, __jsx("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 33
         },
         __self: this
       }, "Events"), __jsx("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 34
         },
         __self: this
       }, "In the past few months, hackathons and the hacker community as a whole have changed my life completely.  I love this community and as a way of giving back I organize events with the single priority.  That is \"Hackers First\".  I also love meeting new people and sharpening my skills at hackathons and other similiar events."), __jsx("div", {
         className: "indented",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 40
         },
         __self: this
       }, __jsx("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 41
         },
         __self: this
       }, "Events I've attended:"), __jsx("div", {
         className: "indented",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 42
         },
         __self: this
       }, __jsx("ul", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 43
         },
         __self: this
       }, __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 44
         },
         __self: this
       }, "Hack Merced, attendee won beginner prize"), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 45
         },
         __self: this
       }, "Los Altos Hacks, attendee won best android app"), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 46
         },
         __self: this
       }, "LingHacks, attendee"), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 47
         },
         __self: this
       }, "Launch Hacks, attendee"))), __jsx("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 50
         },
         __self: this
       }, "Events I've organized/mentored:"), __jsx("div", {
         className: "indented",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 51
         },
         __self: this
       }, __jsx("ul", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 52
         },
         __self: this
       }, __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 53
         },
         __self: this
       }, "CDBA Spring 2019, organizer"), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 54
         },
         __self: this
       }, "AngelHacks, advisor"), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 55
         },
         __self: this
       }, "CDBA Fall 2019, organizer"), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 56
         },
         __self: this
       }, "Atoms&Bits, advisor"), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 57
         },
         __self: this
       }, "Hack The New Year, mentor"), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 58
         },
         __self: this
       }, "CDBA Winter 2020, organizer"))))), __jsx("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 63
         },
         __self: this
       }), __jsx("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62
+          lineNumber: 64
         },
         __self: this
       }), __jsx("div", {
@@ -12177,447 +12180,447 @@ function (_React$Component) {
         id: "skills",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 65
         },
         __self: this
       }, __jsx("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 66
         },
         __self: this
       }, "Tools/Technologies:"), __jsx("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 67
         },
         __self: this
       }, "I love learning new technologies, along with the following tools I am also experienced with linux, scrum, git, and bash scripting."), __jsx("div", {
         className: "indented",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 70
         },
         __self: this
       }, __jsx("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 71
         },
         __self: this
       }, "Python"), __jsx("div", {
         className: "indented",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 72
         },
         __self: this
       }, __jsx("div", {
         className: "skillbar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 73
         },
         __self: this
       }, __jsx("div", {
         id: "python",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
+          lineNumber: 74
         },
         __self: this
       }))), __jsx("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 77
         },
         __self: this
       }, "Accompanying tools:"), __jsx("div", {
         className: "indented",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 78
         },
         __self: this
       }, __jsx("ul", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 79
         },
         __self: this
       }, __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 80
         },
         __self: this
       }, "Tensorflow"), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 81
         },
         __self: this
       }, "Pyquil"), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 82
         },
         __self: this
       }, "OpenCV"), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 83
         },
         __self: this
       }, "Pipenv"), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82
+          lineNumber: 84
         },
         __self: this
       }, "Pandas"), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83
+          lineNumber: 85
         },
         __self: this
       }, "Sqlite"))), __jsx("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86
+          lineNumber: 88
         },
         __self: this
       }, "Javascript/Typescript"), __jsx("div", {
         className: "indented",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87
+          lineNumber: 89
         },
         __self: this
       }, __jsx("div", {
         className: "skillbar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88
+          lineNumber: 90
         },
         __self: this
       }, __jsx("div", {
         id: "jsts",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89
+          lineNumber: 91
         },
         __self: this
       }))), __jsx("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92
+          lineNumber: 94
         },
         __self: this
       }, "Accompanying tools:"), __jsx("div", {
         className: "indented",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93
+          lineNumber: 95
         },
         __self: this
       }, __jsx("ul", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 96
         },
         __self: this
       }, __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95
+          lineNumber: 97
         },
         __self: this
       }, "Node.js"), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96
+          lineNumber: 98
         },
         __self: this
       }, "Express"), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97
+          lineNumber: 99
         },
         __self: this
       }, "React.js"), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 100
         },
         __self: this
       }, "Tensorflow.js"), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 101
         },
         __self: this
       }, "Discord.js"), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 102
         },
         __self: this
       }, "Mongoose/Mongo"))), __jsx("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 103
+          lineNumber: 105
         },
         __self: this
       }, "Java"), __jsx("div", {
         className: "indented",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 106
         },
         __self: this
       }, __jsx("div", {
         className: "skillbar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105
+          lineNumber: 107
         },
         __self: this
       }, __jsx("div", {
         id: "java",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 106
+          lineNumber: 108
         },
         __self: this
       }))), __jsx("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 109
+          lineNumber: 111
         },
         __self: this
       }, "Accompanying tools:"), __jsx("div", {
         className: "indented",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 110
+          lineNumber: 112
         },
         __self: this
       }, __jsx("ul", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 111
+          lineNumber: 113
         },
         __self: this
       }, __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 112
+          lineNumber: 114
         },
         __self: this
       }, "Maven"), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 113
+          lineNumber: 115
         },
         __self: this
       }, "Gradle"), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 114
+          lineNumber: 116
         },
         __self: this
       }, "Spring Boot"))), __jsx("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 117
+          lineNumber: 119
         },
         __self: this
       }, "C++"), __jsx("div", {
         className: "indented",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 118
+          lineNumber: 120
         },
         __self: this
       }, __jsx("div", {
         className: "skillbar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 119
+          lineNumber: 121
         },
         __self: this
       }, __jsx("div", {
         id: "cpp",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 120
+          lineNumber: 122
         },
         __self: this
       }))))), __jsx("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 125
-        },
-        __self: this
-      }), __jsx("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 126
-        },
-        __self: this
-      }), __jsx("div", {
-        className: "container",
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 127
         },
         __self: this
-      }, __jsx("h3", {
+      }), __jsx("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 128
         },
         __self: this
-      }, "Work/Education/Volunteer"), __jsx("div", {
-        className: "indented",
+      }), __jsx("div", {
+        className: "container",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 129
         },
         __self: this
-      }, __jsx("ul", {
+      }, __jsx("h3", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 130
         },
         __self: this
-      }, __jsx("li", {
+      }, "Work/Education"), __jsx("div", {
+        className: "indented",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 131
         },
         __self: this
-      }, "Student, Las Lomas High School, 2018-2020"), __jsx("p", {
+      }, __jsx("ul", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 132
         },
         __self: this
-      }, "Currently a student at Las Lomas High School, Current GPA:4.0, WGPA: 4.13"), __jsx("h5", {
+      }, __jsx("li", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 133
         },
         __self: this
-      }), __jsx("li", {
+      }, "Las Lomas High School"), __jsx("h5", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 134
         },
         __self: this
-      }, "Student, Diablo Valley College, 2018-2020"), __jsx("p", {
+      }, "Student, 2018-2020"), __jsx("p", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 135
         },
         __self: this
-      }, "Currently enrolled in Diablo Valley College and working towards my AA degree in computer science.  Current GPA: 4.0"), __jsx("li", {
+      }, "Currently a student at Las Lomas High School, Current GPA:4.0, WGPA: 4.13"), __jsx("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 136
+        },
+        __self: this
+      }, "Student, Diablo Valley College, 2018-2020"), __jsx("p", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 137
         },
         __self: this
-      }, "Founder and President, Las Lomas Hack Club,03/2019-present"), __jsx("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 138
-        },
-        __self: this
-      }, "Organize, and founded a small Hack Club at my high school with ~5-10 regular members."), __jsx("li", {
+      }, "Currently enrolled in Diablo Valley College and working towards my AA degree in computer science.  Current GPA: 4.0"), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 139
         },
         __self: this
-      }, "Contract backend web developer, TrantonLLC, 01/2020-02/2020 "), __jsx("p", {
+      }, "Founder and President, Las Lomas Hack Club,03/2019-present"), __jsx("p", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 140
         },
         __self: this
+      }, "Organize, and founded a small Hack Club at my high school with ~5-10 regular members."), __jsx("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 141
+        },
+        __self: this
+      }, "Contract backend web developer, TrantonLLC, 01/2020-02/2020 "), __jsx("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 142
+        },
+        __self: this
       }, "Was a paid contract developer for TrantonLLC.  Worked mainly with discord.js and express."), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 143
+          lineNumber: 145
         },
         __self: this
       }, "Math tutor, Monument Crisis, 09/2018-01/2020"), __jsx("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 144
+          lineNumber: 146
         },
         __self: this
       }, "Was a math and english tutor who helped underprivileged kids study and do homework.")))), __jsx("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 150
+          lineNumber: 152
         },
         __self: this
       }), __jsx("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 151
+          lineNumber: 153
         },
         __self: this
       }), __jsx("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 152
+          lineNumber: 154
         },
         __self: this
       }, __jsx("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 153
+          lineNumber: 155
         },
         __self: this
       }, "Hobbies:"), __jsx("div", {
         className: "indented",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 154
+          lineNumber: 156
         },
         __self: this
       }, __jsx("ul", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 155
+          lineNumber: 157
         },
         __self: this
       }, __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 156
+          lineNumber: 158
         },
         __self: this
       }, "Electronics"), __jsx("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 157
+          lineNumber: 159
         },
         __self: this
       }, "I'm kind of a nerd when it comes to circuitry."), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 158
+          lineNumber: 160
         },
         __self: this
       }, "Digital Design"), __jsx("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 159
+          lineNumber: 161
         },
         __self: this
       }, "I've recently gotten into  digitial design as a hobby. You can see some of my work is you look at my", __jsx("a", {
@@ -12625,50 +12628,50 @@ function (_React$Component) {
         className: "inlinelink",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 161
+          lineNumber: 163
         },
         __self: this
-      }, " Resume"), ", or if you get a 404 error."), __jsx("li", {
+      }, "Resume"), ", or if you get a 404 error."), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 164
+          lineNumber: 166
         },
         __self: this
       }, "Rocketry"), __jsx("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 165
+          lineNumber: 167
         },
         __self: this
       }, "I used to launch model rockets in my free time, and was on a TARC team for a season."), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 168
+          lineNumber: 170
         },
         __self: this
       }, "Robotics"), __jsx("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 169
+          lineNumber: 171
         },
         __self: this
       }, "I am on a VEX robotics team and love to tinker with robotics sometimes."), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 170
+          lineNumber: 172
         },
         __self: this
       }, "CTFs"), __jsx("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 171
+          lineNumber: 173
         },
         __self: this
       }, "I regularly compete in CTFs for fun.  I usually do crypto, web, or sten.")))), __jsx("div", {
         className: "blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 175
+          lineNumber: 177
         },
         __self: this
       }));

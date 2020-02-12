@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 export default class Error extends React.Component{
     render(){
         return(
-            <Layout>
+            <Layout Title="page not found">
                 <h1>404</h1>
                 <h2 className="errormessage">Page not found</h2>
                 <img id="coffee" src="/dev.png"/>

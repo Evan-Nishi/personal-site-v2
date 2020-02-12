@@ -6,7 +6,7 @@ export default class Header extends React.Component{
         return(
             <div id="header" className="animated fadeIn delay-2s">
                 <a className="button" href="/Resume.png">Resume</a>
-                <a className="button" href="/contact">Contact</a>
+                <a className="button" href="/coming-soon">Contact</a>
             </div>
         )
     }
