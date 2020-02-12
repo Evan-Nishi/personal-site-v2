@@ -7,11 +7,6 @@ html{
     text-align: center;
 }
 
-Footer{
-    height: 5%;
-    width: 100%;
-}
-
 h2{
     padding-left: 0;
     text-align: left;
@@ -25,6 +20,10 @@ h3{
     color: #A8D386;
     font-size: 55px;
     text-align: left;
+}
+
+h4{
+    text-align: center;
 }
 
 li{
@@ -63,11 +62,23 @@ img{
     display: block;
 }
 
+#links{
+    padding-right: 3%;
+}
+
+#Footer{
+    text-align: center;
+    height: 5%;
+    width: 95vw;
+    justify-content: center;
+}
+
 .icon{
+    padding: 0;
+    margin: 0;
     width: 3.5%;
     transition: all 0.5s ease-in-out;
-    padding-right: 1.5%;
-    padding-left: 1.5%;
+    display: inline-block;
 }
 
 .icon:hover{
@@ -229,6 +240,7 @@ a{
 
     .icon{
         width: 10vw;
+        height: auto;
     }
 
     p{
