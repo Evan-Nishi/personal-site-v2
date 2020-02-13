@@ -1,18 +1,12 @@
-import React from 'react'
+/*import React from 'react'
 
-interface Props{
+interface State{
     step: number
 }
 
-export default class Fields extends React.Component<Props>{
-    static getInitialProps(){
-        const step = 1
-        return { step }
-    }
-
+export default class Fields extends React.Component<State>{
     render(){
-        const { step } = this.props
-        switch(step){
+        switch({Fields.State.step}){
             case 1:
                 return(<Info/>)
             case 2:
@@ -24,6 +18,7 @@ export default class Fields extends React.Component<Props>{
         }
     }
 }
+
 
 export class Info extends React.Component{
     render(){
@@ -60,3 +55,4 @@ export class Confirmation extends React.Component{
         )
     }
 }
+*/
