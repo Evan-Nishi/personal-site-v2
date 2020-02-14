@@ -1,14 +1,13 @@
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import React from 'react'
-import Head from 'next/head'
 
 export default class Index extends React.Component {
     render(){
         return(   
             <Layout Title="Evan Nishi">
                 <div>
-                    <img src="/barseg1.png" id="TopBar" className="animated slideInRight"/> 
+                    <img src="/barseg1.png" id="TopBar" className="animated slideInRight delay-1s"/> 
                     <img src="/topbar2.png" id="SmolBar" className="animated slideInRight"/> 
                 </div>
                 <Header/>

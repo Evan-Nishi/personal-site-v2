@@ -1,6 +1,4 @@
 import React from 'react'
-import styles from '../style/Header.module.css'
-import Link from 'next/link'
 export default class Header extends React.Component{
     render(){
         return(

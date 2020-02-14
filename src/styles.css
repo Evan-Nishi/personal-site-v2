@@ -63,7 +63,7 @@ img{
 }
 
 #links{
-    padding-right: 3%;
+    padding-right: 3vw;
 }
 
 #Footer{
@@ -88,11 +88,16 @@ img{
 a{
     margin-left: 5%;
     color: #4D4D4D;
-    font-size: 45px;
-    width: 5%;
     flex-direction: row;
-    padding: 8.5px;
     background-color: white;
+}
+
+
+.button{
+    font-size: 2.5vw;
+    padding: .5vw;
+    height: 3vh;
+    width: 5vw;
 }
 
 .button:hover{
@@ -168,7 +173,7 @@ a{
 }
 
 #cpp{
-    width: 73%;
+    width: 70%;
     height: 50px;
     background-color: #f655fc;
 }
@@ -177,21 +182,13 @@ a{
     height: 10%;
     flex-direction: row;
     position: absolute;
-    margin-top: 7.2%;
-    margin-left: 14%;
-}
-
-#title{
-    color: white;
-    position: absolute;
-    font-size: 85px;
-    margin-top: 1.5%;
-    margin-left: 50%;
+    margin-top: 13vh;
+    margin-left: 13.2vw;
 }
 
 #SmolBar{
     z-index: -1;
-    margin-top: 20px;
+    margin-top: 0vh;
     margin-left: 30%;
     width: 65%;
     height: auto;
@@ -200,7 +197,7 @@ a{
 
 #TopBar{
     z-index: -2;
-    margin-top: 50px;
+    margin-top: 5vh;
     margin-left: 5%;
     width: 96%;
     height: auto;
@@ -223,7 +220,7 @@ a{
     font-size: 90%;
 }
 
-@media screen and (max-width: 740px){
+@media screen and (max-width: 800px){
     .inlinelink{
         font-size: 15px;
         padding: 0;
@@ -231,11 +228,13 @@ a{
     #pfp{
         width: 30vw;
     }
+
     html {
         max-width: 100vw;
         overflow-x: hidden;
         width:100vw;
     }
+
     .container {
         width:93vw;
         margin-left:4vw;

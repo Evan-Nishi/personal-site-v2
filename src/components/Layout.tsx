@@ -9,7 +9,7 @@ interface Props{
 export default class Layout extends React.Component<Props>{
     render(){
         return(
-            <div id='page'>
+            <div /*className={darkMode ? "dark-mode" : "light-mode"}*/>
                 <Head>
                     <title>{this.props.Title}</title>
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
