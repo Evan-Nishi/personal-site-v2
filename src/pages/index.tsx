@@ -131,9 +131,9 @@ export default class Index extends React.Component {
                         <ul>
                             <li>Las Lomas High School</li>
                             
-                            <p><h5>Student, 2018-2020</h5>Currently a student at Las Lomas High School, Current GPA:4.0, WGPA: 4.13</p>
+                            <p><h5>Student, 2018-2022</h5>Currently a student at Las Lomas High School, Current GPA:4.0, WGPA: 4.13</p>
                             <li>Diablo Valley College</li>
-                            <p><h5>Student, 2018-2020</h5>Currently enrolled in Diablo Valley College and working towards my AA degree
+                            <p><h5>Student, 2018-2022</h5>Currently enrolled in Diablo Valley College and working towards my AA degree
                                     in computer science.  Current GPA: 4.0</p>
                             <li>Las Lomas Hack Club</li>
                             <p><h5>Founder and President, 03/2019-present </h5>Organize, and founded a small Hack Club at my high school with ~5-10 regular members.</p>

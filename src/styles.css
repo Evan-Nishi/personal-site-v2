@@ -225,6 +225,11 @@ a{
         font-size: 15px;
         padding: 0;
     }
+
+    h5{
+        font-size: 10px;
+    }
+
     #pfp{
         width: 30vw;
     }
@@ -251,6 +256,7 @@ a{
         font-size: 15px;
         max-width: 90%;
     }
+    
     h3{font-size: 20px;}
     h2{font-size: 15px;}
     li{font-size: 15px;}
