@@ -1,6 +1,7 @@
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import React from 'react'
+import Card from '../components/Card'
 
 export default class Index extends React.Component {
     render(){
@@ -11,9 +12,10 @@ export default class Index extends React.Component {
                     <img src="/topbar2.png" id="SmolBar" className="animated slideInRight"/> 
                 </div>
                 <Header/>
-                <img src="/pfp3.png" id="pfp" className="animated fadeInDown delay-1s"/>
-                <br/>
-                <div className="container">
+                <div>
+                    <img src="/pfp3.png" id="pfp" className="animated fadeInDown delay-1s"/>
+                </div>
+                <Card>
                     <h3>About me:</h3>
                     <p>Hi, my name is Evan and I am a student at Las Lomas in Walnut Creek California and DVC
                         in Pleasant Hill. I started self teaching programming in early 2019, and was fascinated
@@ -25,10 +27,10 @@ export default class Index extends React.Component {
                         afraid to fail or ask for help sometimes.  I have a solid work ethic, and 
                         adapt to new environments and technologies quickly.
                     </p>
-                </div>
+                </Card>
                 <br/>
                 <br/>
-                <div className="container">
+                <Card>
                     <h3>Events</h3>
                     <p>In the past few months, hackathons and the hacker community as a whole
                         have changed my life completely.  I love this community and as a way
@@ -40,28 +42,31 @@ export default class Index extends React.Component {
                     <h2>Events I've attended:</h2>
                     <div className="indented">
                         <ul>
-                            <li>Hack Merced, attendee won beginner prize</li>
-                            <li>Los Altos Hacks, attendee won best android app</li>
-                            <li>LingHacks, attendee</li>
-                            <li>Launch Hacks, attendee</li>
+                            <li>Hack Merced, attendee, won beginner prize</li>
+                            <li>Los Altos Hacks, attendee, won best android app</li>
+                            <li>LingHacks 2019, attendee</li>
+                            <li>Launch Hacks 2019, attendee</li>
+                            <li>Hack Club Flagship summit, attendee</li>
+                            <li>Hack Club Leaders week summit, attendee</li>
+                            <li>Github secure development spotlight, invitee</li>
                         </ul>
                     </div>
                     <h2>Events I've organized/mentored:</h2>
                     <div className="indented">
                         <ul>
-                            <li>CDBA Spring 2019, organizer</li>
-                            <li>AngelHacks, advisor</li>
-                            <li>CDBA Fall 2019, organizer</li>
-                            <li>Atoms&Bits, advisor</li>
+                            <li>CDBA Spring 2019, outreach organizer</li>
+                            <li>AngelHacks, advisor/workshop leader</li>
+                            <li>CDBA Fall 2019, sponsorships organizer</li>
+                            <li>Atoms&Bits, advisor/workshop leader</li>
                             <li>Hack The New Year, mentor</li>
-                            <li>CDBA Winter 2020, organizer</li>
+                            <li>CDBA Winter 2020, sponsorships organizer</li>
                         </ul>
                     </div>
                     </div>
-                </div>
+                </Card>
                 <br/>
                 <br/>
-                <div className="container" id="skills">
+                <Card>
                     <h3>Tools/Technologies:</h3>
                     <p>I love learning new technologies, along with the following tools
                         I am also experienced with linux, scrum, git, and bash scripting.
@@ -121,11 +126,12 @@ export default class Index extends React.Component {
                                 <div id="cpp"/>
                             </div>
                         </div>
+                        <br/>
                     </div>
-                </div>
+                </Card>
                 <br/>
                 <br/>
-                <div className="container">
+                <Card>
                     <h3>Work/Education</h3>
                     <div className="indented">
                         <ul>
@@ -147,32 +153,32 @@ export default class Index extends React.Component {
                             </p>
                         </ul>
                     </div>
-                </div>
+                </Card>
                 <br/>
                 <br/>
-                <div className="container">
+                <Card>
                     <h3>Hobbies:</h3>
                     <div className="indented">
                         <ul>
                             <li>Electronics</li>
-                            <p>I'm kind of a nerd when it comes to circuitry.</p>
+                            <p>I'm kind of a nerd when it comes to circuitry, even though I can use a bit of saftey lessons.</p>
                             <li>Digital Design</li>
                             <p>I've recently gotten into  digitial design as a hobby.
-                                You can see some of my work is you look at my
+                                You can see some of my work if you look at my
                                 <a href="/Resume.png" className="inlinelink">Resume</a>,
                                 or if you get a 404 error.
                             </p>
                             <li>Rocketry</li>
-                            <p>I used to launch model rockets in my free time, and was on a
-                                    TARC team for a season.
+                            <p>I used to launch model rockets in my free time and was on a
+                                TARC team for a season.
                             </p>
                             <li>Robotics</li>
-                            <p>I am on a VEX robotics team and love to tinker with robotics sometimes.</p>
+                            <p>I am on a VEX robotics team and love to tinker with robotics.</p>
                             <li>CTFs</li>
                             <p>I regularly compete in CTFs for fun.  I usually do crypto, web, or sten.</p>
                         </ul>
                     </div>
-                </div>
+                </Card>
                 <div className="blank"/>
             </Layout>
         )

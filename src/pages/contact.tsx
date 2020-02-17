@@ -1,25 +1,17 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import Card from '../components/Card'
 
-interface State{
-    firstName: string,
-    lastName: string,
-    email: string,
-    method: "zoom"| "google meet" | "phone" | "discord" | "slack" | "other",
-    date: Date,
-    step: number
-}
-
-export default class Contact extends React.Component<State>{
-    constructor(props) {
-        super(props)
-        this.state = {
-
-        }
-    }
+export default class Contact extends React.Component{
     render(){
         return(
-            <Layout Title="Schedule a meeting!">
+            <Layout Title="Contact">
+                <h1 id="title">Let's Talk!</h1>
+                <Card>
+                    <h2>Schedule a meeting</h2>
+                    <p></p>
+                </Card>
+
             </Layout>
         )
     }
