@@ -4,6 +4,9 @@ export default class Footer extends React.Component{
     render(){
         return(
             <div id="Footer">
+                <br/>
+                <br/>
+                <br/>
                 <h4>Made with ♥ and 🍵 by Evan Nishi.</h4>
                 <h4><a id="sc" href="https://github.com/Evan-Nishi/personal-site-v2" className="inlinelink">Source Code</a></h4>
                 <div id="links">

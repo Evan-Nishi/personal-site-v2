@@ -2,6 +2,7 @@ import Layout from '../components/Layout'
 import Header from '../components/Header'
 import React from 'react'
 import Card from '../components/Card'
+import Button from '../components/Button'
 
 export default class Index extends React.Component {
     render(){
@@ -11,7 +12,10 @@ export default class Index extends React.Component {
                     <img src="/barseg1.png" id="TopBar" className="animated slideInRight delay-1s"/> 
                     <img src="/topbar2.png" id="SmolBar" className="animated slideInRight"/> 
                 </div>
-                <Header/>
+                <Header>
+                    <Button href="/Resume.png">Resume</Button>
+                    <Button href="/contact">Contact</Button>
+                </Header>
                 <div>
                     <img src="/pfp3.png" id="pfp" className="animated fadeInDown delay-1s"/>
                 </div>
@@ -179,7 +183,6 @@ export default class Index extends React.Component {
                         </ul>
                     </div>
                 </Card>
-                <div className="blank"/>
             </Layout>
         )
     }

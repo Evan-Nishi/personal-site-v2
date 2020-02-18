@@ -107,11 +107,23 @@ a{
     padding: .5vw;
     height: 3vh;
     width: 5vw;
+    border: 1px solid;
+    box-shadow: 2.5px 5px #888888;
 }
 
 .button:hover{
-    transition: all 0.3s ease-in-out;
+    transition: all 0.8s ease-in-out;
     background-color:#cfcfcf;
+}
+
+.homeButton{
+    margin-top: 5vh;
+    margin-right: 80vw;
+}
+
+.contactButton{
+    margin-top: 5vh;
+    margin-right: 65vw;
 }
 
 .navcont{
@@ -152,6 +164,10 @@ a{
     color: #A1EC66;
 }
 
+.social{
+    list-style-type: none;
+}
+
 .skillbar{
     width: 95%; 
     height: 50px;
@@ -167,10 +183,6 @@ a{
     text-decoration: none;
     color: black;
     text-align: center;
-}
-
-.blank{
-    height: 10vw;
 }
 
 #python{
@@ -207,11 +219,16 @@ a{
 
 #SmolBar{
     z-index: -1;
-    margin-top: 0vh;
+    margin-top: 0;
     margin-left: 30%;
     width: 65%;
     height: auto;
     position: absolute;
+}
+
+#title{
+    text-align: center;
+    font-size: 75px;
 }
 
 #TopBar{
@@ -221,6 +238,14 @@ a{
     width: 96%;
     height: auto;
     position: absolute;
+}
+
+#navBar{
+    z-index: -2;
+    margin-top: 5vh;
+    margin-left: 5%;
+    width: 96%;
+    height: auto;  
 }
 
 #pfp{
@@ -239,11 +264,6 @@ a{
 #sc{
     text-align: center;
     font-size: 90%;
-}
-
-#title{
-    text-align: center;
-    font-size: 100px;
 }
 
 @media screen and (max-width: 800px){
