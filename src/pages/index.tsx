@@ -15,32 +15,29 @@ export default class Index extends React.Component {
                 <Header>
                     <Button href="/Resume.png">Resume</Button>
                     <Button href="/contact">Contact</Button>
+                    <Button href="/about">About</Button>
                 </Header>
                 <div>
                     <img src="/pfp3.png" id="pfp" className="animated fadeInDown delay-1s"/>
                 </div>
                 <Card>
-                    <h3>About me:</h3>
-                    <p>Hi, my name is Evan and I am a student at Las Lomas in Walnut Creek California and DVC
-                        in Pleasant Hill. I started self teaching programming in early 2019, and was fascinated
-                        with the idea of being able to create whatever I wanted, and learn how to do so
-                        off of the internet. I started off with python, and basic web development, but
-                        things really changed when I attended Hack Merced.  After I saw the amazing 
-                        hacker community, I devoted more and more of my time to coding.  I am always curious,
-                        constantly self improving, and am not
-                        afraid to fail or ask for help sometimes.  I have a solid work ethic, and 
-                        adapt to new environments and technologies quickly.
+                    <h3>Overview</h3>
+                    <p>Hi my name is Evan Nishi.  I am active in the programming community, and am a
+                        mostly self taught developer.  I have a strong work ethic, a knack for problem
+                         solving, and high adaptability to new environments and tools.
+                         I am accountable, and have a sense of urgency during projects.  I am always curious,
+                       constantly self improving, and am not afraid to fail or ask for help sometimes.
                     </p>
                 </Card>
                 <br/>
                 <br/>
                 <Card>
                     <h3>Events</h3>
-                    <p>In the past few months, hackathons and the hacker community as a whole
-                        have changed my life completely.  I love this community and as a way
-                        of giving back I organize events with the single priority.  That is 
-                        "Hackers First".  I also love meeting new people and sharpening my
-                        skills at hackathons and other similiar events.
+                    <p>Some of my most defining and impactful work is organizing events to educate
+                       others about computer science.  I always organize events with the 
+                       "Hackers First" mentality, meaning attendees experience is the most important.
+                         I also love meeting new people and sharpening my
+                       skills at hackathons and other similar events.
                     </p>
                     <div className="indented">
                     <h2>Events I've attended:</h2>
@@ -66,6 +63,31 @@ export default class Index extends React.Component {
                             <li>CDBA Winter 2020, sponsorships organizer</li>
                         </ul>
                     </div>
+                    </div>
+                </Card>
+                <br/>
+                <br/>
+                <Card>
+                    <h3>Work/Education</h3>
+                    <div className="indented">
+                        <ul>
+                            <li>Las Lomas High School</li>
+                            
+                            <p><h5>Student, 2018-2022</h5>Currently a student at Las Lomas High School, Current GPA:4.0, WGPA: 4.13</p>
+                            <li>Diablo Valley College</li>
+                            <p><h5>Student, 2018-2022</h5>Currently enrolled in Diablo Valley College and working towards my AA degree
+                                    in computer science.  Current GPA: 4.0</p>
+                            <li>Las Lomas Hack Club</li>
+                            <p><h5>Founder and President, 03/2019-present </h5>Organize, and founded a small Hack Club at my high school with ~5-10 regular members.</p>
+                            <li>TrantonLLC </li>
+                            <p><h5>Contract backend web developer, 01/2020-02/2020</h5>Was a paid contract developer for TrantonLLC.  Worked mainly with discord.js
+                                and express.
+                            </p>
+                            <li>Monument Crisis</li>
+                            <p><h5>Math tutor, 09/2018-01/2020</h5>Was a math and english tutor who helped underprivileged kids study
+                                and do homework.
+                            </p>
+                        </ul>
                     </div>
                 </Card>
                 <br/>
@@ -135,54 +157,6 @@ export default class Index extends React.Component {
                 </Card>
                 <br/>
                 <br/>
-                <Card>
-                    <h3>Work/Education</h3>
-                    <div className="indented">
-                        <ul>
-                            <li>Las Lomas High School</li>
-                            
-                            <p><h5>Student, 2018-2022</h5>Currently a student at Las Lomas High School, Current GPA:4.0, WGPA: 4.13</p>
-                            <li>Diablo Valley College</li>
-                            <p><h5>Student, 2018-2022</h5>Currently enrolled in Diablo Valley College and working towards my AA degree
-                                    in computer science.  Current GPA: 4.0</p>
-                            <li>Las Lomas Hack Club</li>
-                            <p><h5>Founder and President, 03/2019-present </h5>Organize, and founded a small Hack Club at my high school with ~5-10 regular members.</p>
-                            <li>TrantonLLC </li>
-                            <p><h5>Contract backend web developer, 01/2020-02/2020</h5>Was a paid contract developer for TrantonLLC.  Worked mainly with discord.js
-                                and express.
-                            </p>
-                            <li>Monument Crisis</li>
-                            <p><h5>Math tutor, 09/2018-01/2020</h5>Was a math and english tutor who helped underprivileged kids study
-                                and do homework.
-                            </p>
-                        </ul>
-                    </div>
-                </Card>
-                <br/>
-                <br/>
-                <Card>
-                    <h3>Hobbies:</h3>
-                    <div className="indented">
-                        <ul>
-                            <li>Electronics</li>
-                            <p>I'm kind of a nerd when it comes to circuitry, even though I can use a bit of saftey lessons.</p>
-                            <li>Digital Design</li>
-                            <p>I've recently gotten into  digitial design as a hobby.
-                                You can see some of my work if you look at my
-                                <a href="/Resume.png" className="inlinelink">Resume</a>,
-                                or if you get a 404 error.
-                            </p>
-                            <li>Rocketry</li>
-                            <p>I used to launch model rockets in my free time and was on a
-                                TARC team for a season.
-                            </p>
-                            <li>Robotics</li>
-                            <p>I am on a VEX robotics team and love to tinker with robotics.</p>
-                            <li>CTFs</li>
-                            <p>I regularly compete in CTFs for fun.  I usually do crypto, web, or sten.</p>
-                        </ul>
-                    </div>
-                </Card>
             </Layout>
         )
     }

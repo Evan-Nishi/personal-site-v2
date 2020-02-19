@@ -17,14 +17,17 @@ export default class Contact extends React.Component{
                 <br/>
                 <Card>
                     <h2>Meeting</h2>
-                    <p></p>
+                    <p>Want to schedule an in person or online meeting? Feel free to schedule a meeting here!</p>
+                    <div className="contactButton">
+                        <Button href="/coming-soon">Schedule</Button>
+                    </div>
                 </Card>
                 <br/>
                 <br/>
                 <br/>
                 <Card>
                     <h2>Message</h2>
-                    <p>Feel free to shoot me a quick message!</p>
+                    <p>Feel free to shoot me a quick here!</p>
                     <div className="contactButton">
                         <Button href="/coming-soon">Message</Button>
                     </div>
