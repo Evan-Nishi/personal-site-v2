@@ -193,7 +193,7 @@ a{
 }
 
 #jsts{
-    width: 80%;
+    width: 75%;
     height: 50px;
     background-color: #95D386;
 }
@@ -208,6 +208,12 @@ a{
     width: 60%;
     height: 50px;
     background-color: #f655fc;
+}
+
+#ruby{
+    width: 45%;
+    height: 50px;
+    background-color: #ff4040;
 }
 
 #header{
@@ -257,6 +263,9 @@ a{
     position: relative;
     width: 30vw;
     height: auto;
+}
+
+#cardPic{    
 }
 
 #coffee{
@@ -312,5 +321,5 @@ a{
     #SmolBar {margin-top: 4.5%;}
     #TopBar {margin-top: 6%;}
     #header{display: none;}
-    #jsts, #python, #cpp, #java, .skillbar{height: 10px;}
+    #jsts, #python, #cpp, #java, #ruby, .skillbar{height: 10px;}
 }

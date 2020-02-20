@@ -81,6 +81,7 @@ export default class About extends React.Component{
                                 <li>Burpsuite</li>
                                 <li>Dirb</li>
                                 <li>Ghidra</li>
+                                <li>Insomnia</li>
                                 <li>Wireshark</li>
                             </ul>
                             <h2>Communication/VCS</h2>
@@ -102,7 +103,7 @@ export default class About extends React.Component{
                                for this is Dell because they post schemas and have good repair docs on their site,
                                as well as generally having repair friendly hardware.  I also don't have much
                                of a need for high performance machines thanks to things like cloud computing
-                               to run my ml models.  I also am a linux junkie so if it can't boot linux, than
+                               to run my ml models.  I also am a linux junkie so if it can't boot linux, then
                                I probably won't buy it.
                             </p>
                             <h2>Devices</h2>

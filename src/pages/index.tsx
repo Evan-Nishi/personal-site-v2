@@ -127,7 +127,7 @@ export default class Index extends React.Component {
                                 <li>Node.js</li>
                                 <li>Express</li>
                                 <li>React.js</li>
-                                <li>Tensorflow.js</li>
+                                <li>Next.js</li>
                                 <li>Discord.js</li>
                                 <li>Mongoose/Mongo</li>
                             </ul>
@@ -151,6 +151,18 @@ export default class Index extends React.Component {
                             <div className="skillbar">
                                 <div id="cpp"/>
                             </div>
+                        </div>
+                        <h2>Ruby</h2>
+                        <div className="indented">
+                            <div className="skillbar">
+                                <div id="ruby"/>
+                            </div> 
+                        </div>
+                        <h2>Accompanying tools:</h2>
+                        <div className="indented">
+                            <ul>
+                                <li>Ruby on Rails</li>
+                            </ul>
                         </div>
                         <br/>
                     </div>
