@@ -94,7 +94,8 @@ export default class Index extends React.Component {
                 <br/>
                 <Card>
                     <h3>Tools/Technologies:</h3>
-                    <p>I love learning new technologies, along with the following tools
+                    <p>I love learning new technologies, along with the following tools.  These bars 
+                        represent my familiarity with each respective language.
                         I am also experienced with linux, scrum, git, and bash scripting.
                     </p>
                     <div className="indented">
