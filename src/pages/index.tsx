@@ -13,7 +13,7 @@ export default class Index extends React.Component {
                     <img src="/topbar2.png" id="SmolBar" className="animated slideInRight"/> 
                 </div>
                 <Header>
-                    <Button href="/Resume.png">Resume</Button>
+                    <Button href="/Evan-Nishi-resume.pdf">Resume</Button>
                     <Button href="/contact">Contact</Button>
                     <Button href="/about">About</Button>
                 </Header>
@@ -22,11 +22,10 @@ export default class Index extends React.Component {
                 </div>
                 <Card>
                     <h3>Overview</h3>
-                    <p>Hi my name is Evan Nishi.  I am active in the programming community, and am a
-                        mostly self taught developer.  I have a strong work ethic, a knack for problem
-                         solving, and high adaptability to new environments and tools.
-                         I am accountable, and have a sense of urgency during projects.  I am always curious,
-                       constantly self improving, and am not afraid to fail or ask for help sometimes.
+                    <p>Hi my name is Evan Nishi, a self taught programmer, community leader, and avid learner.
+                          I have demonstrated a strong work ethic, a passion for learning and helping others,
+                           high adaptability, grit, a knack for problem solving, high organizational skills, and accountability while on projects.
+                          I mainly do web development, but also some machine learning on the side.
                     </p>
                 </Card>
                 <br/>
@@ -50,6 +49,7 @@ export default class Index extends React.Component {
                             <li>Hack Club Flagship summit, attendee</li>
                             <li>Hack Club Leaders week summit, attendee</li>
                             <li>Github secure development spotlight, invitee</li>
+                            <li>UC Berkeley aging research and technology summit, attendee</li>
                         </ul>
                     </div>
                     <h2>Events I've organized/mentored:</h2>
@@ -116,6 +116,7 @@ export default class Index extends React.Component {
                                 <li>Sqlite</li>
                             </ul>
                         </div> 
+                        <br/>
                         <h2>Javascript/Typescript</h2>
                         <div className="indented">
                             <div className="skillbar">
@@ -133,6 +134,7 @@ export default class Index extends React.Component {
                                 <li>Mongoose/Mongo</li>
                             </ul>
                         </div>
+                        <br/>
                         <h2>Java</h2>
                         <div className="indented">
                             <div className="skillbar">
@@ -147,12 +149,28 @@ export default class Index extends React.Component {
                                 <li>Spring Boot</li>
                             </ul>
                         </div>
+                        <br/>
                         <h2>C++</h2>
                         <div className="indented">
                             <div className="skillbar">
                                 <div id="cpp"/>
                             </div>
                         </div>
+                        <br/>
+                        <h2>HTML/CSS</h2>
+                        <div className="indented">
+                            <div className="skillbar">
+                                <div id="htmlcss"/>
+                            </div> 
+                        </div>
+                        <h2>Accompanying tools:</h2>
+                        <div className="indented">
+                            <ul>
+                                <li>Bulma</li>
+                                <li>Animate.css</li>
+                            </ul>
+                        </div>
+                        <br/>
                         <h2>Ruby</h2>
                         <div className="indented">
                             <div className="skillbar">
