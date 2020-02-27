@@ -17,7 +17,9 @@ export default class Contact extends React.Component{
                 <br/>
                 <Card>
                     <h2>Meeting</h2>
-                    <p>Want to schedule an in person or online meeting? Feel free to schedule a meeting here!</p>
+                    <p>Want to schedule an in person or online meeting? Feel free to schedule a 
+                        meeting here!
+                    </p>
                     <div className="contactButton">
                         <Button href="/coming-soon">Schedule</Button>
                     </div>
@@ -26,10 +28,41 @@ export default class Contact extends React.Component{
                 <br/>
                 <br/>
                 <Card>
-                    <h2>Message</h2>
-                    <p>Feel free to shoot me a quick here!</p>
+                    <h2>Collaborate, Dominate</h2>
+                    <p>
+                        I love collaboration on projects large and small, technical or not.
+                          If you have an idea or project you'd like to collaborate on
+                           feel free to fill out the form below.
+                    </p>
                     <div className="contactButton">
-                        <Button href="/coming-soon">Message</Button>
+                        <Button href="/coming-soon">Collaborate</Button>
+                    </div>
+                </Card>
+                <br/>
+                <br/>
+                <br/>
+                <Card>
+                    <h2>Tutoring</h2>
+                    <p>
+                        I can tutor for COMSC110, precal honors and below, AP compsci as well as other
+                        programming related subjects.  I tutor for free if you catch me during lunch or 
+                        academy given I have time and energy.  Off campus I charge on an hourly basis.
+                    </p>
+                    <div className="contactButton">
+                        <Button href="/coming-soon">Tutor</Button>
+                    </div>
+                </Card>
+                <br/>
+                <br/>
+                <br/>
+                <Card>
+                    <h2>Got Electronics?</h2>
+                    <p>
+                        If you have broken or unused electronics I'm open for offers 
+                        to buy or fix given all parts are present.
+                    </p>
+                    <div className="contactButton">
+                        <Button href="/coming-soon">Electronics</Button>
                     </div>
                 </Card>
                 <br/>

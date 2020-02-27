@@ -23,8 +23,8 @@ export default class Index extends React.Component {
                 <Card>
                     <h3>Overview</h3>
                     <p>Hi my name is Evan Nishi, a self taught programmer, community leader, and avid learner.
-                          I have demonstrated a strong work ethic, a passion for learning and helping others,
-                           high adaptability, grit, a knack for problem solving, high organizational skills, and accountability while on projects.
+                          I have demonstrated a strong work ethic, a passion for learning,
+                           high adaptability, a knack for problem solving, and accountability while on projects.
                           I mainly do web development, but also some machine learning on the side.
                     </p>
                 </Card>

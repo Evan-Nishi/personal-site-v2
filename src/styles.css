@@ -271,9 +271,6 @@ a{
     height: auto;
 }
 
-#cardPic{    
-}
-
 #coffee{
     width: 65vw;
     height: auto;
@@ -327,5 +324,5 @@ a{
     #SmolBar {margin-top: 4.5%;}
     #TopBar {margin-top: 6%;}
     #header{display: none;}
-    #jsts, #python, #cpp, #java, #ruby, #htmlcss .skillbar{height: 10px;}
+    #jsts, #python, #cpp, #java, #ruby, #htmlcss, .skillbar{height: 10px;}
 }
