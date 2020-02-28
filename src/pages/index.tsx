@@ -26,6 +26,8 @@ export default class Index extends React.Component {
                           I have demonstrated a strong work ethic, a passion for learning,
                            high adaptability, a knack for problem solving, and accountability while on projects.
                           I mainly do web development, but also some machine learning on the side.
+                            If you want to see some of my projects, feel free to look on my
+                             <a id="sc" href="https://github.com/Evan-Nishi/" className="inlinelink">Github</a>.
                     </p>
                 </Card>
                 <br/>
