@@ -44,7 +44,7 @@ export default class Index extends React.Component {
                     <h2>Events I've attended:</h2>
                     <div className="indented">
                         <ul>
-                            <li>Hack Merced, attendee, won beginner prize</li>
+                            <li>Hack Merced IV, attendee, won beginner prize</li>
                             <li>Los Altos Hacks, attendee, won best android app</li>
                             <li>LingHacks 2019, attendee</li>
                             <li>Launch Hacks 2019, attendee</li>
@@ -52,6 +52,7 @@ export default class Index extends React.Component {
                             <li>Hack Club Leaders week summit, attendee</li>
                             <li>Github secure development spotlight, invitee</li>
                             <li>UC Berkeley aging research and technology summit, attendee</li>
+                            <li>Hack Merced V, attendee, won best use of mongodb and 1st moonshot prize</li>
                         </ul>
                     </div>
                     <h2>Events I've organized/mentored:</h2>

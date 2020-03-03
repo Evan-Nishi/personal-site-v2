@@ -190,6 +190,10 @@ a{
     text-align: center;
 }
 
+.timeCard{
+    display: flex;
+}
+
 #python{
     width: 92%;
     height: 50px;
