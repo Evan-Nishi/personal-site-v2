@@ -5,7 +5,7 @@ import Button from '../components/Button'
 export default class Wip extends React.Component{
     render(){
         return(
-            <Layout Title="coming soon!🛠">
+            <Layout Title="Coming Soon!🛠">
                 <div className="homeButton">
                     <Button href="/">Home</Button>
                 </div>

@@ -6,7 +6,7 @@ import Button from '../components/Button'
 export default class About extends React.Component{
     render(){
         return(
-            <Layout Title="about">
+            <Layout Title="About">
                 <div className="homeButton">
                     <Button href="/">Home</Button>
                 </div>
