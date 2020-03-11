@@ -29,26 +29,30 @@ export default class About extends React.Component{
                     <h3>Hobbies:</h3>
                     <div className="indented">
                         <ul>
-                            <li>Electronics</li>
-                            <p>
-                                I'm kind of a nerd when it comes to circuitry, even though I can use a bit of saftey 
-                                lessons.  I've attemped some teardowns, salvaging and repairs with devices,
-                                 as well as made a couple of small circuts.
-                            </p>
+                            <li>CTFs</li>
+                            <p>I regularly compete in CTFs for fun.  I usually do crypto, web, or sten.</p>
+
                             <li>Digital Design</li>
                             <p>I've recently gotten into  digitial design as a hobby.
                                 You can see some of my work if you look at my
                                 <a href="/Resume.png" className="inlinelink">Resume</a>,
                                 or if you run into a 404 error.
                             </p>
+                            <li>Electronics</li>
+                            <p>
+                                I'm kind of a nerd when it comes to circuitry, even though I can use a bit of saftey 
+                                lessons.  I've attemped some teardowns, salvaging and repairs with devices,
+                                 as well as made a couple of small circuts.
+                            </p>
+
                             <li>Rocketry</li>
                             <p>I used to launch model rockets in my free time and was on a
                                 TARC team for a season.
                             </p>
+                            
                             <li>Robotics</li>
                             <p>I am on a VEX robotics team and love to tinker with robotics.</p>
-                            <li>CTFs</li>
-                            <p>I regularly compete in CTFs for fun.  I usually do crypto, web, or sten.</p>
+                            
                         </ul>
                     </div>
                 </Card>
@@ -65,15 +69,15 @@ export default class About extends React.Component{
                         <div className="indented">
                             <h2>Editors/IDE</h2>
                             <ul>
-                                <li>VScode</li>
                                 <li>IntelliJ</li>
                                 <li>Vim</li>
+                                <li>VScode</li>
                             </ul>
                             <h2>Operating Systems</h2>
                             <ul>
-                                <li>Ubuntu</li>
                                 <li>Fedora</li>
                                 <li>Manjaro</li>
+                                <li>Ubuntu</li>
                             </ul>
                             <h2>Cybersecurity Tools</h2>
                             <ul>
@@ -88,8 +92,8 @@ export default class About extends React.Component{
                             <ul>
                                 <li>Gitkraken</li>
                                 <li>Git CLI</li>
-                                <li>Zoom</li>
                                 <li>Slack</li>
+                                <li>Zoom</li>
                             </ul>
                         </div>
                     </div>
@@ -114,8 +118,8 @@ export default class About extends React.Component{
                             </ul>
                             <h2>Electronics</h2>
                             <ul>
-                                <li>Raspi 0w</li>
                                 <li>Arduino Uno</li>
+                                <li>Raspi 0w</li>
                             </ul>
                         </div>
                     </div>

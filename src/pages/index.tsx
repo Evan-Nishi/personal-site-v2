@@ -111,12 +111,12 @@ export default class Index extends React.Component {
                         <h2>Accompanying tools:</h2>
                         <div className="indented">
                             <ul>
-                                <li>Tensorflow</li>
-                                <li>Pyquil</li>
                                 <li>OpenCV</li>
-                                <li>Pipenv</li>
                                 <li>Pandas</li>
+                                <li>Pipenv</li>
+                                <li>Pyquil</li>
                                 <li>Sqlite</li>
+                                <li>Tensorflow</li>
                             </ul>
                         </div> 
                         <br/>
@@ -129,12 +129,12 @@ export default class Index extends React.Component {
                         <h2>Accompanying tools:</h2>
                         <div className="indented">
                             <ul>
-                                <li>Node.js</li>
-                                <li>Express</li>
-                                <li>React.js</li>
-                                <li>Next.js</li>
                                 <li>Discord.js</li>
+                                <li>Express</li>
                                 <li>Mongoose/Mongo</li>
+                                <li>Next.js</li>
+                                <li>Node.js</li>
+                                <li>React.js</li>
                             </ul>
                         </div>
                         <br/>
@@ -147,8 +147,8 @@ export default class Index extends React.Component {
                         <h2>Accompanying tools:</h2>
                         <div className="indented">
                             <ul>
-                                <li>Maven</li>
                                 <li>Gradle</li>
+                                <li>Maven</li>
                                 <li>Spring Boot</li>
                             </ul>
                         </div>
@@ -170,7 +170,6 @@ export default class Index extends React.Component {
                         <div className="indented">
                             <ul>
                                 <li>Bulma</li>
-                                <li>Animate.css</li>
                             </ul>
                         </div>
                         <br/>
