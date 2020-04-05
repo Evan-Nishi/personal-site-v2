@@ -2,6 +2,7 @@ import Layout from '../components/Layout'
 import Header from '../components/Header'
 import React from 'react'
 import Card from '../components/Card'
+import ClearCard from '../components/ClearCard'
 import Button from '../components/Button'
 
 export default class Index extends React.Component {
@@ -20,6 +21,12 @@ export default class Index extends React.Component {
                 <div>
                     <img src="/pfp3.png" id="pfp" className="animated fadeInDown delay-1s"/>
                 </div>
+                <ClearCard>
+                    I'm currently looking for internships or part time gigs, feel free to reach out via
+                    <a id="sc" href="mailto:evan@evannishi.com" className="inlinelink">email</a> or 
+                    <a id="sc" href="https://www.linkedin.com/in/evan-nishi-804a85183/" className="inlinelink">linkedin</a>!
+                    </ClearCard>
+                <br/>
                 <Card>
                     <h3>Overview</h3>
                     <p>Hi my name is Evan Nishi, a self taught programmer, community leader, and avid learner.
