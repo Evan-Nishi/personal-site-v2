@@ -38,6 +38,7 @@ export default class Index extends React.Component {
                     </ClearCard>
                 </div>
                 <br/>
+                <br/>
                 <Card>
                     <h3>Overview</h3>
                     <p>Hi my name is Evan Nishi, a self taught programmer, community leader, and avid learner.
