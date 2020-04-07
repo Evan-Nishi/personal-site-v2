@@ -102,6 +102,8 @@ a{
 }
 
 .button{
+    cursor: pointer;
+    background-color: white;
     z-index: -2;
     font-size: 2.5vw;
     padding: .5vw;
@@ -111,9 +113,16 @@ a{
     box-shadow: 5px 10px #666666;
 }
 
-.button:hover{
+.button{
     transition: all 0.8s ease-in-out;
     box-shadow: 2.5px 5px #888888;
+}
+
+.cancel{
+    font-size: 20px;
+    margin-left: 93%;
+    max-width: px;
+    cursor: pointer;
 }
 
 .homeButton{
@@ -165,9 +174,9 @@ a{
     margin-right: 5%;
     opacity: 0.5;
     width: 90%;
+    padding-bottom: 2.5%;
     height: 100%;
     border: 3px dotted;
-    padding: 20px;
     box-shadow: 10px 15px #888888;
     transition: all 0.5s ease-in-out;
 }
@@ -185,6 +194,11 @@ a{
 .inlinelink:hover{
     transition: all 0.8s ease-in-out;
     color: #888888;
+}
+
+.link{
+    background-color: transparent;
+    margin-left: .5vw;
 }
 
 .social{
@@ -307,7 +321,7 @@ a{
     font-size: 90%;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 850px){
     .inlinelink{
         font-size: 15px;
         padding: 0;
@@ -321,7 +335,7 @@ a{
         width: 30vw;
     }
 
-    .card, .clearcard{
+    .card{
         width: 85vw;
         margin-right: 2.5vw;
         margin-left: 2.5vw;
@@ -347,8 +361,12 @@ a{
     h3{font-size: 20px;}
     h2{font-size: 15px;}
     li{font-size: 15px;}
+    #header{display: none;}
     #SmolBar {margin-top: 4.5%;}
     #TopBar {margin-top: 6%;}
-    #header{display: none;}
     #jsts, #python, #cpp, #java, #ruby, #htmlcss, .skillbar{height: 10px;}
+}
+
+@media screen and (max-width: 1200px){
+    .clearcard{display: none;}
 }

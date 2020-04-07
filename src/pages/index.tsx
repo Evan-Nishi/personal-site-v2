@@ -6,6 +6,14 @@ import ClearCard from '../components/ClearCard'
 import Button from '../components/Button'
 
 export default class Index extends React.Component {
+    constructor(props){
+        super(props)
+        this.remove = this.remove.bind(this)
+    }
+
+    remove(element){
+        document.getElementById(element).style.display = "none"
+    }
     render(){
         return(   
             <Layout Title="Evan Nishi">
@@ -21,11 +29,14 @@ export default class Index extends React.Component {
                 <div>
                     <img src="/pfp3.png" id="pfp" className="animated fadeInDown delay-1s"/>
                 </div>
-                <ClearCard>
-                    I'm currently looking for internships or part time gigs, feel free to reach out via
-                    <a id="sc" href="mailto:evan@evannishi.com" className="inlinelink">email</a> or 
-                    <a id="sc" href="https://www.linkedin.com/in/evan-nishi-804a85183/" className="inlinelink">linkedin</a>!
+                <div id="job">
+                    <ClearCard>
+                        <p className="cancel" onClick={() => this.remove("job")}>X</p>
+                        I'm currently looking for internships or part time gigs, feel free to reach out via
+                        <a href="mailto:evan@evannishi.com" className="link">email</a> or 
+                        <a href="https://www.linkedin.com/in/evan-nishi-804a85183/" className="link">linkedin</a>!
                     </ClearCard>
+                </div>
                 <br/>
                 <Card>
                     <h3>Overview</h3>
