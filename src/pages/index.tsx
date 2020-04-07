@@ -34,7 +34,7 @@ export default class Index extends React.Component {
                         <p className="cancel" onClick={() => this.remove("job")}>X</p>
                         I'm currently looking for internships or part time gigs, feel free to reach out via
                         <a href="mailto:evan@evannishi.com" className="link">email</a> or 
-                        <a href="https://www.linkedin.com/in/evan-nishi-804a85183/" className="link">linkedin</a>!
+                        <a href="https://www.linkedin.com/in/evan-nishi-804a85183/" className="link">linkedin</a> if you have or know of any opportunities available!
                     </ClearCard>
                 </div>
                 <br/>
@@ -117,7 +117,7 @@ export default class Index extends React.Component {
                     <h3>Tools/Technologies:</h3>
                     <p>I love learning new technologies, along with the following tools.  These bars 
                         represent my familiarity with each respective language.
-                        I am also experienced with linux, scrum, git, and bash scripting.
+                        I am also experienced with linux, scrum, git, mongodb, and bash scripting.
                     </p>
                     <div className="indented">
                         <h2>Python</h2>
@@ -183,12 +183,6 @@ export default class Index extends React.Component {
                             <div className="skillbar">
                                 <div id="htmlcss"/>
                             </div> 
-                        </div>
-                        <h2>Accompanying tools:</h2>
-                        <div className="indented">
-                            <ul>
-                                <li>Bulma</li>
-                            </ul>
                         </div>
                         <br/>
                         <h2>Ruby</h2>
