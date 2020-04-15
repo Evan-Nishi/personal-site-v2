@@ -113,7 +113,7 @@ a{
     box-shadow: 5px 10px #666666;
 }
 
-.button{
+.button:hover{
     transition: all 0.8s ease-in-out;
     box-shadow: 2.5px 5px #888888;
 }
