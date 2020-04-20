@@ -111,10 +111,12 @@ a{
     width: 5vw;
     border: 1px solid;
     box-shadow: 5px 10px #666666;
+    transition: all 0.5s ease-out;
+
 }
 
 .button:hover{
-    transition: all 0.8s ease-in-out;
+    transition: all 0.5s ease-in-out;
     box-shadow: 2.5px 5px #888888;
 }
 
