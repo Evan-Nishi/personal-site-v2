@@ -13,7 +13,7 @@ export default class Layout extends React.Component<Props>{
                 <Head>
                     <title>{this.props.Title}</title>
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
                     <meta name="og:title" content="Evan Nishi"/>
                     <meta name="og:description" content="Hi my name is Evan Nishi, a community leader, avid learner, and fanatic developer.  Feel free to poke around!"/>
                 </Head>

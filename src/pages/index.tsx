@@ -52,62 +52,16 @@ export default class Index extends React.Component {
                 <br/>
                 <br/>
                 <Card>
-                    <h3>Events</h3>
-                    <p>Some of my most defining and impactful work is organizing events to educate
-                       others about computer science.  I always organize events with the 
-                       "Hackers First" mentality, meaning attendees experience is the most important.
-                         I also love meeting new people and sharpening my
-                       skills at hackathons and other similar events.
-                    </p>
-                    <div className="indented">
-                    <h2>Events I've attended:</h2>
-                    <div className="indented">
-                        <ul>
-                            <li>Hack Merced IV, attendee, won beginner prize</li>
-                            <li>Los Altos Hacks, attendee, won best android app</li>
-                            <li>LingHacks 2019, attendee</li>
-                            <li>Launch Hacks 2019, attendee</li>
-                            <li>Hack Club Flagship summit, attendee</li>
-                            <li>Hack Club Leaders week summit, attendee</li>
-                            <li>Github secure development spotlight, invitee</li>
-                            <li>UC Berkeley aging research and technology summit, attendee</li>
-                            <li>Hack Merced V, attendee, won best use of mongodb and 1st moonshot prize</li>
-                        </ul>
-                    </div>
-                    <h2>Events I've organized/mentored:</h2>
-                    <div className="indented">
-                        <ul>
-                            <li>CDBA Spring 2019, outreach organizer</li>
-                            <li>AngelHacks, advisor/workshop leader</li>
-                            <li>CDBA Fall 2019, sponsorships organizer</li>
-                            <li>Atoms&Bits, advisor/workshop leader</li>
-                            <li>Hack The New Year, mentor</li>
-                            <li>CDBA Winter 2020, sponsorships organizer</li>
-                        </ul>
-                    </div>
-                    </div>
-                </Card>
-                <br/>
-                <br/>
-                <Card>
                     <h3>Work/Education</h3>
                     <div className="indented">
                         <ul>
                             <li>Las Lomas High School</li>
-                            
                             <p><h5>Student, 2018-2022</h5>Currently a student at Las Lomas High School, Current GPA:4.0, WGPA: 4.13</p>
                             <li>Diablo Valley College</li>
                             <p><h5>Student, 2018-2022</h5>Currently enrolled in Diablo Valley College and working towards my AA degree
                                     in computer science.  Current GPA: 4.0</p>
-                            <li>Las Lomas Hack Club</li>
-                            <p><h5>Founder and President, 03/2019-present </h5>Organize, and founded a small Hack Club at my high school with ~5-10 regular members.</p>
                             <li>TrantonLLC </li>
-                            <p><h5>Contract backend web developer, 01/2020-02/2020</h5>Was a paid contract developer for TrantonLLC.  Worked mainly with discord.js
-                                and express.
-                            </p>
-                            <li>Monument Crisis</li>
-                            <p><h5>Math tutor, 09/2018-01/2020</h5>Was a math and english tutor who helped underprivileged kids study
-                                and do homework.
+                            <p><h5>Contract backend web developer, 01/2020-02/2020</h5>Was a paid contract developer for TrantonLLC.  Worked mainly with discord.js, AWS EC2, and express.
                             </p>
                         </ul>
                     </div>
@@ -148,7 +102,6 @@ export default class Index extends React.Component {
                         <h2>Accompanying tools:</h2>
                         <div className="indented">
                             <ul>
-                                <li>Discord.js</li>
                                 <li>Express</li>
                                 <li>Mongoose/Mongo</li>
                                 <li>Next.js</li>
@@ -185,20 +138,6 @@ export default class Index extends React.Component {
                                 <div id="htmlcss"/>
                             </div> 
                         </div>
-                        <br/>
-                        <h2>Ruby</h2>
-                        <div className="indented">
-                            <div className="skillbar">
-                                <div id="ruby"/>
-                            </div> 
-                        </div>
-                        <h2>Accompanying tools:</h2>
-                        <div className="indented">
-                            <ul>
-                                <li>Ruby on Rails</li>
-                            </ul>
-                        </div>
-                        <br/>
                     </div>
                 </Card>
                 <br/>
