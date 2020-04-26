@@ -209,13 +209,6 @@ a{
     list-style-type: none;
 }
 
-.skillbar{
-    width: 95%; 
-    height: 35px;
-    background-color: #E9E9E9;
-    user-select: none;
-}
-
 .indented{
     padding-left: 40px;
 }
@@ -228,36 +221,6 @@ a{
 
 .timeCard{
     display: flex;
-}
-
-#python{
-    width: 92%;
-    height: 35px;
-    background-color: #F3EC68;
-}
-
-#jsts{
-    width: 77%;
-    height: 35px;
-    background-color: #95D386;
-}
-
-#java{
-    width: 70%;
-    height: 35px;
-    background-color: #8697D3;
-}
-
-#cpp{
-    width: 65%;
-    height: 35px;
-    background-color: #f655fc;
-}
-
-#htmlcss{
-    width: 55%;
-    height: 35px;
-    background-color: #FFA858;
 }
 
 #header{
@@ -362,7 +325,6 @@ a{
     #header{display: none;}
     #SmolBar {margin-top: 4.5%;}
     #TopBar {margin-top: 6%;}
-    #jsts, #python, #cpp, #java, #ruby, #htmlcss, .skillbar{height: 10px;}
 }
 
 @media screen and (max-width: 1200px){

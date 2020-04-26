@@ -70,15 +70,17 @@ export default class Index extends React.Component {
                 <br/>
                 <Card>
                     <h3>Tools/Technologies:</h3>
-                    <p>I love learning new technologies, along with the following tools.  These bars 
-                        represent my familiarity with each respective language.
-                        I am also experienced with linux, scrum, git, mongodb, and bash scripting.
+                    <p>I love learning new technologies, along with the following tools.
+                        I am also experienced with linux, scrum, git, mongodb administration, and bash scripting.
                     </p>
                     <div className="indented">
                         <h2>Python</h2>
                         <div className="indented">
-                            <div className="skillbar">
-                                <div id="python"/>
+                            <div>
+                                <p>I am familiar with syntax and structure of python, as well as Object Oriented concepts and modules.
+                                    I also am familiar with the usage of virtual environments with pip packages.  I also have some understanding
+                                     of data science and machine learning concepts.
+                                </p>
                             </div>
                         </div>
                         <h2>Accompanying tools:</h2>
@@ -86,6 +88,7 @@ export default class Index extends React.Component {
                             <ul>
                                 <li>OpenCV</li>
                                 <li>Pandas</li>
+                                <li>Poetry</li>
                                 <li>Pipenv</li>
                                 <li>Pyquil</li>
                                 <li>Sqlite</li>
@@ -95,8 +98,11 @@ export default class Index extends React.Component {
                         <br/>
                         <h2>Javascript/Typescript</h2>
                         <div className="indented">
-                            <div className="skillbar">
-                                <div id="jsts"/>
+                            <div>
+                                <p>I am familiar with syntax and structure of javascript programs, as well as Object Oriented concepts and modules.
+                                    I am also familiar with sending and receiving requests, CRUD operations with noSQL databases, dynamic websites with react,
+                                     and asynchronous programming.
+                                </p>
                             </div>
                         </div>
                         <h2>Accompanying tools:</h2>
@@ -112,8 +118,10 @@ export default class Index extends React.Component {
                         <br/>
                         <h2>Java</h2>
                         <div className="indented">
-                            <div className="skillbar">
-                                <div id="java"/>
+                            <div>
+                                <p>I took APCS A, and covered program structure and Object Oriented programming.  I also learned web development and routing
+                                     with Spring Boot, as well as familiarized myself with build tools such as Gradle and Maven.
+                                </p>
                             </div>
                         </div>
                         <h2>Accompanying tools:</h2>
@@ -127,15 +135,17 @@ export default class Index extends React.Component {
                         <br/>
                         <h2>C++</h2>
                         <div className="indented">
-                            <div className="skillbar">
-                                <div id="cpp"/>
+                            <div>
+                                <p>I took COMPSC 110 at DVC and covered C++ fundamentals.  I also use C++ in VEX robotics, mainly working with 
+                                    littlevgl graphics library for the UI of our controller.
+                                </p>
                             </div>
                         </div>
                         <br/>
                         <h2>HTML/CSS</h2>
                         <div className="indented">
-                            <div className="skillbar">
-                                <div id="htmlcss"/>
+                            <div>
+                                <p>I know how to style and make responsive static websites with HTML and CSS.</p>
                             </div> 
                         </div>
                     </div>
