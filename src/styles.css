@@ -10,6 +10,13 @@ html{
     text-align: center;
     background-color: #f4f4f4;
 }
+::selection {
+    background:#CBEBB3;
+}
+
+::-moz-selection {
+    background: #CBEBB3; /* Gecko Browsers */
+}
 
 br{
     line-height: 2.5vw;
