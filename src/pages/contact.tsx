@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 import Card from '../components/Card'
 import Button from '../components/Button'
-import { FaSlack, FaInstagram, FaFacebook } from 'react-icons/fa'
+import { FaSlack, FaInstagram, FaFacebook, FaTwitter } from 'react-icons/fa'
 
 export default class Contact extends React.Component{
     render(){
@@ -74,10 +74,10 @@ export default class Contact extends React.Component{
                     <p>Here are some other places I lurk.  Feel free to contact me through these means.</p>
                     <div className="indented">
                         <ul>
+                            <li className="social"><FaTwitter/><a className="inlinelink" href="https://twitter.com/NishiEvan">Twitter</a></li>
                             <li className="social"><FaSlack/><a className="inlinelink" href="https://hackclub.com/community/">Hack Club slack</a></li>
                             <li className="social"><FaInstagram/><a className="inlinelink" href="https://www.instagram.com/evan_nishi/">Instagram</a></li>
                             <li className="social"><FaFacebook/><a className="inlinelink" href="https://www.facebook.com/evan.nishi.14">Facebook</a></li>
-
                         </ul>
                     </div>
                 </Card>
