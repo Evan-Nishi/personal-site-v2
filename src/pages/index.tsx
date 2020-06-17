@@ -33,7 +33,7 @@ export default class Index extends React.Component {
                     <ClearCard>
                         <p className="cancel" onClick={() => this.remove("job")}>X</p>
                         I'm currently looking for internships or part time gigs, feel free to reach out via
-                        <a href="mailto:evan@evannishi.com" className="link">email</a> or 
+                        <a href="mailto:evan@evannishi.me" className="link">email</a> or 
                         <a href="https://www.linkedin.com/in/evan-nishi-804a85183/" className="link">linkedin</a> if you have or know of any opportunities available!
                     </ClearCard>
                 </div>

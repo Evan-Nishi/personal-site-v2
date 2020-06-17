@@ -10,7 +10,7 @@ export default class Footer extends React.Component{
                 <h4>Made with ♥ and 🍵 by Evan Nishi.</h4>
                 <h4>©2020 Evan Nishi <a id="sc" href="https://github.com/Evan-Nishi/personal-site-v2" className="inlinelink">Source Code</a></h4>
                 <div id="links">
-                    <a href="mailto:evan@evannishi.com"><FaEnvelope size="4em" className="icon"/></a>
+                    <a href="mailto:evan@evannishi.me"><FaEnvelope size="4em" className="icon"/></a>
                     <a href="https://github.com/Evan-Nishi"><FaGithub size="4em" className="icon"/></a>
                     <a href="https://www.linkedin.com/in/evan-nishi-804a85183/"><FaLinkedin size="4em" className="icon"/></a>
                 </div>
