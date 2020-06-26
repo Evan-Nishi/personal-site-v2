@@ -42,34 +42,6 @@ export default class Contact extends React.Component{
                 <br/>
                 <br/>
                 <Card>
-                    <h2>Tutoring</h2>
-                    <p>
-                        I can tutor for COMSC110, precal honors and below, AP compsci, as well as other
-                        computer science subjects.  I tutor for free if you catch me during lunch or 
-                        academy given I have time and energy.  Off campus I charge on an hourly basis but
-                        am willing to negotiate.
-                    </p>
-                    <div className="contactButton">
-                        <Button href="/coming-soon">Tutor</Button>
-                    </div>
-                </Card>
-                <br/>
-                <br/>
-                <br/>
-                <Card>
-                    <h2>Got Electronics?</h2>
-                    <p>
-                        If you have broken or unused electronics I'm open for offers 
-                        to buy or fix given all parts are present.
-                    </p>
-                    <div className="contactButton">
-                        <Button href="/coming-soon">Electronics</Button>
-                    </div>
-                </Card>
-                <br/>
-                <br/>
-                <br/>
-                <Card>
                     <h2>Other places</h2>
                     <p>Here are some other places I lurk.  Feel free to contact me through these means.</p>
                     <div className="indented">

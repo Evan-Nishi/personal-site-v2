@@ -22,7 +22,7 @@ export default class Index extends React.Component {
                     <img src="/topbar2.png" id="SmolBar" className="animated slideInRight"/> 
                 </div>
                 <Header>
-                    <Button href="/Evan-Nishi-resume.pdf">Resume</Button>
+                    <Button href="/Evan-Nishi-Resume.pdf">Resume</Button>
                     <Button href="/contact">Contact</Button>
                     <Button href="/about">About</Button>
                 </Header>
