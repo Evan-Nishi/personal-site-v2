@@ -58,7 +58,7 @@ export default class Index extends React.Component {
                             <li>Las Lomas High School</li>
                             <p><h5>Student, 2018-2022</h5>Currently a student at Las Lomas High School, Current GPA:4.0, WGPA: 4.13</p>
                             <li>Diablo Valley College</li>
-                            <p><h5>Student, 2018-2022</h5>Currently enrolled in Diablo Valley College and working towards my AA degree
+                            <p><h5>Student, 2019-2022</h5>Currently enrolled in Diablo Valley College and working towards my AA degree
                                     in computer science.  Current GPA: 4.0</p>
                             <li>TrantonLLC </li>
                             <p><h5>Contract backend web developer, 01/2020-02/2020</h5>Was a paid contract developer for TrantonLLC.  Worked mainly with discord.js, AWS EC2, and express.
@@ -119,7 +119,7 @@ export default class Index extends React.Component {
                         <h2>Java</h2>
                         <div className="indented">
                             <div>
-                                <p>I took APCS A, and covered program structure and Object Oriented programming.  I also learned web development and routing
+                                <p>I took APCS A and COMSC 255, which taught Java gui programming, control flow, and OOP.  I also learned web development and routing
                                      with Spring Boot, as well as familiarized myself with build tools such as Gradle and Maven.
                                 </p>
                             </div>
