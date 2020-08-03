@@ -56,10 +56,10 @@ export default class Index extends React.Component {
                     <div className="indented">
                         <ul>
                             <li>Las Lomas High School</li>
-                            <p><h5>Student, 2018-2022</h5>Currently a student at Las Lomas High School, Current GPA:4.0, WGPA: 4.13</p>
+                            <p><h5>Student, 2018-2022</h5>Currently a student at Las Lomas High School</p>
                             <li>Diablo Valley College</li>
                             <p><h5>Student, 2019-2022</h5>Currently enrolled in Diablo Valley College and working towards my AA degree
-                                    in computer science.  Current GPA: 4.0</p>
+                                    in computer science.</p>
                             <li>TrantonLLC </li>
                             <p><h5>Contract backend web developer, 01/2020-02/2020</h5>Was a paid contract developer for TrantonLLC.  Worked mainly with discord.js, AWS EC2, and express.
                             </p>
