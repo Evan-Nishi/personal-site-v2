@@ -5,7 +5,6 @@ export default class ClearCard extends React.Component{
         return(
             <div className="clearcard">
                 {this.props.children}
-                <br/>
             </div>
         )
     }

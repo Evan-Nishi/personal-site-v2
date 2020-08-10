@@ -18,14 +18,15 @@ export default class Index extends React.Component {
         return(   
             <Layout Title="Evan Nishi">
                 <div>
+                    <Header>
+                        <Button href="/Evan-Nishi-Resume.pdf">Resume</Button>
+                        <Button href="/contact">Contact</Button>
+                        <Button href="/about">About</Button>
+                    </Header>
                     <img src="/barseg1.png" id="TopBar" className="animated slideInRight delay-1s"/> 
                     <img src="/topbar2.png" id="SmolBar" className="animated slideInRight"/> 
                 </div>
-                <Header>
-                    <Button href="/Evan-Nishi-Resume.pdf">Resume</Button>
-                    <Button href="/contact">Contact</Button>
-                    <Button href="/about">About</Button>
-                </Header>
+
                 <div>
                     <img src="/pfp3.png" id="pfp" className="animated fadeInDown delay-1s"/>
                 </div>
