@@ -73,6 +73,8 @@ body{
 }
 
 img{
+    -moz-user-select: none;
+    -webkit-user-select: none;
     user-select: none;
     margin: auto;
     display: block;
@@ -110,6 +112,8 @@ a{
 }
 
 .button{
+    -moz-user-select: none;
+    -webkit-user-select: none;
     cursor: pointer;
     background-color: white;
     z-index: -2;
