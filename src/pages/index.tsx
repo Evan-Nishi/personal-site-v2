@@ -35,7 +35,7 @@ export default class Index extends React.Component {
                         <p className="cancel" onClick={() => this.remove("job")}>X</p>
                         I'm currently looking for internships or part time gigs, feel free to reach out via
                         <a href="mailto:evan@evannishi.me" className="link">email</a> or 
-                        <a href="https://www.linkedin.com/in/evan-nishi-804a85183/" className="link">linkedin</a> if you have or know of any opportunities available!
+                        <a href="https://www.linkedin.com/in/evan-nishi" className="link">linkedin</a> if you have or know of any opportunities available!
                     </ClearCard>
                 </div>
                 <br/>
@@ -75,6 +75,26 @@ export default class Index extends React.Component {
                         I am also experienced with linux, scrum, git, mongodb administration, and bash scripting.
                     </p>
                     <div className="indented">
+                        <h2>Javascript/Typescript</h2>
+                        <div className="indented">
+                            <div>
+                                <p>I am familiar with syntax and structure of javascript programs, as well as Object Oriented concepts and modules.
+                                    I am also familiar with sending and receiving requests, CRUD operations with noSQL databases, dynamic websites with react,
+                                     and asynchronous programming.
+                                </p>
+                            </div>
+                        </div>
+                        <h2>Accompanying tools:</h2>
+                        <div className="indented">
+                            <ul>
+                                <li>Express</li>
+                                <li>Mongoose/Mongo</li>
+                                <li>Next.js</li>
+                                <li>Node.js</li>
+                                <li>React.js</li>
+                            </ul>
+                        </div>
+                        <br/>
                         <h2>Python</h2>
                         <div className="indented">
                             <div>
@@ -97,26 +117,6 @@ export default class Index extends React.Component {
                             </ul>
                         </div> 
                         <br/>
-                        <h2>Javascript/Typescript</h2>
-                        <div className="indented">
-                            <div>
-                                <p>I am familiar with syntax and structure of javascript programs, as well as Object Oriented concepts and modules.
-                                    I am also familiar with sending and receiving requests, CRUD operations with noSQL databases, dynamic websites with react,
-                                     and asynchronous programming.
-                                </p>
-                            </div>
-                        </div>
-                        <h2>Accompanying tools:</h2>
-                        <div className="indented">
-                            <ul>
-                                <li>Express</li>
-                                <li>Mongoose/Mongo</li>
-                                <li>Next.js</li>
-                                <li>Node.js</li>
-                                <li>React.js</li>
-                            </ul>
-                        </div>
-                        <br/>
                         <h2>Java</h2>
                         <div className="indented">
                             <div>
@@ -137,7 +137,8 @@ export default class Index extends React.Component {
                         <h2>C++</h2>
                         <div className="indented">
                             <div>
-                                <p>I took COMPSC 110 at DVC and covered C++ fundamentals.  I also use C++ in VEX robotics, mainly working with 
+                                <p>I took COMSC 110, and COMSC 165 at DVC and covered C++ fundamentals, data structures, and best practices.
+                                     I also used C++ in VEX robotics, mainly working with 
                                     littlevgl graphics library for the UI of our controller.
                                 </p>
                             </div>

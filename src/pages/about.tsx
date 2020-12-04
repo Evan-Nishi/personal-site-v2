@@ -72,9 +72,7 @@ export default class About extends React.Component{
 
                             <li>Digital Design</li>
                             <p>I've recently gotten into  digitial design as a hobby.
-                                You can see some of my work if you look at my
-                                <a href="/Resume.png" className="inlinelink">Resume</a>,
-                                or if you run into a 404 error.
+                                I usually do small projects in figma and sometimes photoshop.
                             </p>
                             <li>Electronics</li>
                             <p>
@@ -123,7 +121,6 @@ export default class About extends React.Component{
                                 <li>Burpsuite</li>
                                 <li>Dirb</li>
                                 <li>Ghidra</li>
-                                <li>Insomnia</li>
                                 <li>Wireshark</li>
                             </ul>
                             <h2>Communication/VCS</h2>
@@ -136,31 +133,6 @@ export default class About extends React.Component{
                         </div>
                     </div>
                     <br/>
-                    <div className="indented">
-                    <h2>Hardware</h2>
-                        <div className="indented">
-                            <p>When it comes to hardware, I look out for a few things.  Price, portability,
-                               repairability, and durability.  I really like to repair devices if possible, or
-                               at least salvage parts once the warranty is expired.  One of my favorite companies
-                               for this is Dell because they post schemas and have good repair docs on their site,
-                               as well as generally having repair friendly hardware.  I also don't have much
-                               of a need for high performance machines thanks to things like cloud computing
-                               to run my ml models.  I also am a linux junkie so if it can't boot linux, then
-                               I probably won't buy it.
-                            </p>
-                            <h2>Devices</h2>
-                            <ul>
-                                <li>Dell xps 13</li>
-                                <li>Dell Inspirion 5570</li>
-                                <li>Samsung Galaxy j3v</li>
-                            </ul>
-                            <h2>Electronics</h2>
-                            <ul>
-                                <li>Arduino Uno</li>
-                                <li>Raspi 0w</li>
-                            </ul>
-                        </div>
-                    </div>
                 </Card>
             </Layout>
         )
