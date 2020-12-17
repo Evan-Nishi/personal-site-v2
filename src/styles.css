@@ -286,7 +286,10 @@ a{
     width: 65vw;
     height: auto;
 }
-
+#gallery{
+    width: 30vw;
+    height: auto;
+}
 #sc{
     text-align: center;
     font-size: 70%;
