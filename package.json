@@ -22,6 +22,7 @@
   "devDependencies": {
     "@types/node": "^13.13.36",
     "@types/react": "^16.14.2",
+    "@types/styled-components": "^5.1.7",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.15.0",
     "prettier": "^1.19.1",
@@ -29,11 +30,11 @@
   },
   "dependencies": {
     "animate.css": "^3.7.2",
-    "hammer": "0.0.5",
     "next": "^9.5.5",
     "next-images": "^1.6.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-icons": "^3.11.0"
+    "react-icons": "^3.11.0",
+    "styled-components": "^5.2.1"
   }
 }

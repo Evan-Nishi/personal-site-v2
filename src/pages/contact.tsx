@@ -1,16 +1,14 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import Card from '../components/Card'
-import Button from '../components/Button'
-import { FaSlack, FaInstagram, FaFacebook, FaTwitter, FaDiscord } from 'react-icons/fa'
+import Button, {Home} from '../components/Button'
+import { FaInstagram, FaFacebook, FaTwitter } from 'react-icons/fa'
 
 export default class Contact extends React.Component{
     render(){
         return(
             <Layout Title="Contact">
-                <div className="homeButton">
-                    <Button href="/">Home</Button>
-                </div>
+                <Home/>
                 <h1 id="title">Let's Talk!</h1>
                 <br/>
                 <br/>

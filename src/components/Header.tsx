@@ -1,11 +1,17 @@
-import React from 'react'
+import styled from 'styled-components'
 
-export default class Header extends React.Component{
-    render(){
-        return(
-            <div id="header" className="animated fadeIn delay-2s">
-                {this.props.children}
-            </div>
-        )
-    }
+const Wrapper = styled.div`
+    height: 10%;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 13.5vh;
+    margin-left: 13.2vw;
+`
+
+export default function Header(props){
+    return(
+        <Wrapper className="animated fadeIn delay-2s">
+            {props.children}
+        </Wrapper>
+    )
 }

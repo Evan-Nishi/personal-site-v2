@@ -1,15 +1,13 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import Card from '../components/Card'
-import Button from '../components/Button'
+import Button, {Home} from '../components/Button'
 
 export default class About extends React.Component{
     render(){
         return(
             <Layout Title="About">
-                <div className="homeButton">
-                    <Button href="/">Home</Button>
-                </div>
+                <Home/>
                 <h1 id="title">About</h1>
                 <Card>
                     <h3>About me</h3>
