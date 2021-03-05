@@ -55,9 +55,11 @@ export default function Index(){
                 <li>Diablo Valley College</li>
                 <p><h5>Student, 2019-2022</h5>Currently enrolled in Diablo Valley College and working towards my AA degree
                         in computer science.</p>
-                <li>TrantonLLC </li>
+                <li>TrantonLLC</li>
                 <p><h5>Contract backend web developer, 01/2020-02/2020</h5>Was a paid contract developer for TrantonLLC.  Worked mainly with discord.js, AWS EC2, and express.
                 </p>
+                <li>TheCoderSchool</li>
+                <p><h5>Programming tutor, 02/2021-present</h5>Currently a part time programming tutor at TheCoderSchool San Ramon, teaching python syntax and basic programming concepts.</p>
             </ul>
         </div>
     </Card>
