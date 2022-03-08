@@ -100,7 +100,7 @@ export default class Index extends React.Component {
                             <div>
                                 <p>I am familiar with syntax and structure of python, as well as Object Oriented concepts and modules.
                                     I also am familiar with the usage of virtual environments with pip packages.  I also have some understanding
-                                     of data science and machine learning concepts.
+                                     of data science and machine learning concepts and have taken basic data science COMSC-120ds at DVC.
                                 </p>
                             </div>
                         </div>
@@ -137,7 +137,7 @@ export default class Index extends React.Component {
                         <h2>C++</h2>
                         <div className="indented">
                             <div>
-                                <p>I took COMSC 110, and COMSC 165 at DVC and covered C++ fundamentals, data structures, and best practices.
+                                <p>I took COMSC 110, COMSC 165, COMSC 200 and COMSC 210 at DVC and covered C++ fundamentals, data structures, and best practices.
                                      I also used C++ in VEX robotics, mainly working with 
                                     littlevgl graphics library for the UI of our controller.
                                 </p>
