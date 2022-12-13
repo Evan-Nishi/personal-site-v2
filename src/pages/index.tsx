@@ -43,9 +43,9 @@ export default class Index extends React.Component {
                 <Card>
                     <h3>Overview</h3>
                     <p>Hi my name is Evan Nishi, a self taught programmer, community leader, and avid learner.
-                          I have demonstrated a strong work ethic, a passion for learning,
+                          I have demonstrated a passion for learning,
                            high adaptability, a knack for problem solving, and accountability while on projects.
-                          I mainly do web development, but also some machine learning on the side.
+                          I mainly do web development, but also am interested in web security and digital forensics.
                             If you want to see some of my projects, feel free to look on my
                              <a id="sc" href="https://github.com/Evan-Nishi/" className="inlinelink">Github</a>.
                     </p>
@@ -56,14 +56,16 @@ export default class Index extends React.Component {
                     <h3>Personal Projects</h3>
                     <div className="indented">
                         <ul>
-                            <li>Personal Site V2</li>
-                            <p><h5>04/2020-09/2020</h5>Created a personal website (looking at it right now!)</p>
-                            <li>Media Bias Visualization</li>
-                            <p><h5>10/2020-12/2020</h5>Webscraped data and created a visualization of media bias vs viewership <a id="sc" className="inlinelink" href="https://github.com/Evan-Nishi/media-bias-visualization">link</a></p>
-                            <li>Birthday Card Generator</li>
-                            <p><h5>11/2020-06/2021</h5>Created an api that generates and stores birthday cards with custom messages/theming given a post request <a id="sc" className="inlinelink" href="https://github.com/Evan-Nishi/birthday-card">link</a></p>
                             <li>Spotify LED Matrix</li>
                             <p><h5>03/2022</h5> Programmed an LED matrix to sync up with my spotify and display the album cover and other information about the currently playing song using a raspi <a id="sc" className="inlinelink" href="https://github.com/Evan-Nishi/spotify-panel-client">link</a></p>
+                            <li>Birthday Card Generator</li>
+                            <p><h5>11/2020-06/2021</h5>Created an api that generates and stores birthday cards with custom messages/theming given a post request <a id="sc" className="inlinelink" href="https://github.com/Evan-Nishi/birthday-card">link</a></p>
+                            <li>Media Bias Visualization</li>
+                            <p><h5>10/2020-12/2020</h5>Webscraped data and created a visualization of media bias vs viewership <a id="sc" className="inlinelink" href="https://github.com/Evan-Nishi/media-bias-visualization">link</a></p>
+                            <li>Personal Site V2</li>
+                            <p><h5>04/2020-09/2020</h5>Created a personal website (looking at it right now!)</p>
+
+
                         </ul>
                     </div>
                 </Card>
@@ -73,12 +75,12 @@ export default class Index extends React.Component {
                     <h3>Education</h3>
                     <div className="indented">
                         <ul>
-                            <li>Las Lomas High School</li>
-                            <p><h5>Student, 2018-2022</h5>High School Dilpoma</p>
+                            <li>San Jose State University</li>
+                            <p><h5>Student, 2022-present</h5>B.S. Software Engineering, forensics minor</p>
                             <li>Diablo Valley College</li>
                             <p><h5>Student, 2019-2022</h5>A.S. Computer Science</p>
-                            <li>San Jose State University</li>
-                            <p><h5>Student, 2022-present</h5>B.S. Digital Forensics</p>
+                            <li>Las Lomas High School</li>
+                            <p><h5>Student, 2018-2022</h5>High School Dilpoma</p>
                         </ul>
                     </div>
                 </Card>
@@ -89,15 +91,17 @@ export default class Index extends React.Component {
                     <h3>Work</h3>
                     <div className="indented">
                         <ul>
+                        <li>San Jose State Computer Science Club</li>
+                            <p><h5>Web Developer, 10/2022-present</h5> Made wireframes and wrote code for the San Jose State Computer Science Club's website and infrastructure.</p>
+                            <li>Drem</li>
+                            <p><h5>Intern, 06/2022-09/2022</h5> Was a lead intern for Drem, a fintech startup based in SCU.  Worked mainly with code organization and quality, typescript, tailwind, and react.</p>             
+                            <li>Kwan Logistics</li>
+                            <p><h5>Grunt, 06/2022-07/2022</h5> Literally moved and palletized boxes and helped staff with computer issues in the hot LA sun.  A little hard labor goes a long way.</p>
+                            <li>The Coder School</li>
+                            <p><h5>Code coach, 02/2021-09/2021</h5> Taught and tutored students in basic programming concepts.</p>
                             <li>TrantonLLC </li>
                             <p><h5>Contract backend web developer, 01/2020-02/2020</h5>Was a paid contract developer for TrantonLLC.  Worked mainly with discord.js, AWS EC2, and express.
                             </p>
-                            <li>The Coder School</li>
-                            <p><h5>Code coach, 02/2021-09/2021</h5> Taught and tutored students in basic programming concepts.</p>
-                            <li>Kwan Logistics</li>
-                            <p><h5>Grunt, 06/2022-07/2022</h5> Literally moved and palletized boxes and helped staff with computer issues in the hot LA sun.  A little hard labor goes a long way.</p>
-                            <li>Drem</li>
-                            <p><h5>Intern, 06/2022-09/2022</h5> Was a lead intern for Drem, a fintech startup based in SCU.  Worked mainly with code organization and quality, typescript, tailwind, and react.</p>
                         </ul>
                     </div>
                 </Card>
@@ -126,6 +130,7 @@ export default class Index extends React.Component {
                                 <li>Next.js</li>
                                 <li>Node.js</li>
                                 <li>React.js</li>
+                                <li>Styled-components</li>
                             </ul>
                         </div>
                         <br/>
@@ -145,7 +150,6 @@ export default class Index extends React.Component {
                                 <li>Pandas</li>
                                 <li>Poetry</li>
                                 <li>Pipenv</li>
-                                <li>Pyquil</li>
                                 <li>Sqlite</li>
                                 <li>Tensorflow</li>
                             </ul>
