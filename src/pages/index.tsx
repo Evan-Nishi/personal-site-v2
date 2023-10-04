@@ -19,7 +19,7 @@ export default class Index extends React.Component {
             <Layout Title="Evan Nishi">
                 <div>
                     <Header>
-                        <Button href="/Evan-Nishi-Resume.pdf">Resume</Button>
+                        <Button href="/Evan-Nishi-Resume.pdf" target='_blank' rel='noopener noreferrer'>Resume</Button>
                         <Button href="/contact">Contact</Button>
                         <Button href="/about">About</Button>
                     </Header>
@@ -76,7 +76,7 @@ export default class Index extends React.Component {
                     <div className="indented">
                         <ul>
                             <li>San Jose State University</li>
-                            <p><h5>Student, 2022-present</h5>B.S. Software Engineering, forensics minor</p>
+                            <p><h5>Student, 2022-present</h5>B.S. Software Engineering, cybersecurity certificate</p>
                             <li>Diablo Valley College</li>
                             <p><h5>Student, 2019-2022</h5>A.S. Computer Science</p>
                             <li>Las Lomas High School</li>
@@ -91,10 +91,10 @@ export default class Index extends React.Component {
                     <h3>Work</h3>
                     <div className="indented">
                         <ul>
-                        <li>San Jose State Computer Science Club</li>
-                            <p><h5>Web Developer, 10/2022-present</h5> Made wireframes and wrote code for the San Jose State Computer Science Club's website and infrastructure.</p>
-                            <li>Drem</li>
-                            <p><h5>Intern, 06/2022-09/2022</h5> Was a lead intern for Drem, a fintech startup based in SCU.  Worked mainly with code organization and quality, typescript, tailwind, and react.</p>             
+                        <li>Drem</li>
+                            <p><h5>Intern, 06/2022-07/2023</h5> Was a lead intern for Drem, a fintech startup based in SCU.  Worked mainly with code organization and quality, typescript, tailwind, and react.</p>             
+                            <li>San Jose State Computer Science Club</li>
+                            <p><h5>Web Developer, 10/2022-12/2022</h5> Made wireframes and wrote code for the San Jose State Computer Science Club's website and infrastructure.</p>
                             <li>Kwan Logistics</li>
                             <p><h5>Grunt, 06/2022-07/2022</h5> Literally moved and palletized boxes and helped staff with computer issues in the hot LA sun.  A little hard labor goes a long way.</p>
                             <li>The Coder School</li>

@@ -13,8 +13,8 @@ export default class About extends React.Component{
                 <h1 id="title">About</h1>
                 <Card>
                     <h3>About me</h3>
-                    <p>Hi, my name is Evan and I am a student at Las Lomas in Walnut Creek California and DVC
-                        in Pleasant Hill. I started self teaching programming in early 2019, and was fascinated
+                    <p>Hi, my name is Evan and I am a student at San Jose State University studying software engineering.
+                        I started self teaching myself programming in early 2019, and was fascinated
                         with the idea of being able to create whatever I wanted, and learn how to do so
                         off of the internet. I started off with python, and basic web development, but
                         things really changed when I attended Hack Merced.  After I saw the amazing 
