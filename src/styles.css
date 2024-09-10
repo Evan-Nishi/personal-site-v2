@@ -20,6 +20,7 @@ html{
 
 br{
     line-height: 2.5vw;
+    margin-bottom: 0.8vh;
 }
 
 h2{
@@ -295,6 +296,19 @@ a{
     font-size: 70%;
 }
 
+.relevant-coursework {
+    display: block; 
+    text-align: left; 
+    font-weight: bold; 
+    font-size: 20px; 
+    margin-bottom: 10px; 
+    color: #4D4D4D;
+}
+
+.tech-used{
+    font-size:20px;
+}
+  
 @media screen and (max-width: 950px){
     .inlinelink{
         font-size: 15px;
