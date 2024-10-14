@@ -68,11 +68,11 @@ export default class Index extends React.Component {
                     <h3>Class Projects</h3>
                     <div className="indented">
                         <ul>
-                            <li>Data Integrated Sparring Helmet (in progress) <b className='tech-used'>|hardware, python, machine learning</b> </li>
-                            <p>Currently working on a project under Dr. Kaikai Liu that integrates a single board computer into a sparring helmet and sensor suite to collect data and stream it to a dashboard</p>
-                            <li>Fren2meet <b className='tech-used'>| typescript, html/css, mongodb</b> </li>
+                            <li>Data Integrated Sparring Helmet (in progress)</li>
+                            <p>Currently working on a project advised by Dr. Kaikai Liu that integrates a single board computer into a sparring helmet and sensor suite to collect data and stream it to a dashboard.</p>
+                            <li>Fren2meet</li>
                             <p>Wrote a when2meet clone with expanded features such as adding friends, have a personal calendar attatched to user profle, and improved UI <a id="sc" className="inlinelink" href="https://github.com/Evan-Nishi/CMPE-133-Project">link</a></p>
-                            <li>Skiver <b className='tech-used'>| Java, SQL</b> </li>
+                            <li>Skive </li>
                             <p>Built a java journaling app with an SQL backend <a id="sc" className="inlinelink" href="https://github.com/Evan-Nishi/team-61-02">link</a></p>
                         </ul>
                             

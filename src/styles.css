@@ -19,8 +19,8 @@ html{
 }
 
 br{
-    line-height: 2.5vw;
-    margin-bottom: 0.8vh;
+    line-height: 4.5vh;
+    margin-bottom: 1.5vh;
 }
 
 h2{
@@ -306,7 +306,7 @@ a{
 }
 
 .tech-used{
-    font-size:20px;
+    font: size 0.35vw;
 }
   
 @media screen and (max-width: 950px){
